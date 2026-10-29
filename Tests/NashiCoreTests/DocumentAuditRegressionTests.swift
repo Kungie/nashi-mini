@@ -43,6 +43,14 @@ final class DocumentAuditRegressionTests: XCTestCase {
         XCTAssertEqual(srt, "1\n00:00:01,000 --> 00:00:02,000\nTom & Jerry \u{00A0}A\u{200E}B\u{200F}C <end>\n")
     }
 
+    func testWebVTTNamedCharacterReferencesRenderInSRTAndText() throws {
+        let source = "WEBVTT\n\n00:00:01.000 --> 00:00:02.000\nCaf&eacute; &hellip; &copy; &Omega; &bogus; &amp;eacute;\n\n"
+        let input = try fixture("Named.vtt", data: Data(source.utf8))
+        XCTAssertEqual(try SubtitleCodec.convert(input, to: "srt", token: .init()), "1\n00:00:01,000 --> 00:00:02,000\nCafé … © Ω &bogus; &eacute;\n")
+        XCTAssertEqual(try SubtitleCodec.convert(input, to: "txt", token: .init()), "Café … © Ω &bogus; &eacute;\n")
+        XCTAssertEqual(DocumentText.decodeEntities("&eacute; &amp;"), "&eacute; &")
+    }
+
     func testUTF16BOMAndBOMLessTextRetainUnicode() throws {
         let text = "Nashi Şişli — café\n"
         let encodings: [(String, Data)] = [
