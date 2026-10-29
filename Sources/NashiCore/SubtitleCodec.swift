@@ -14,7 +14,7 @@ enum SubtitleCodec {
         let cues = try parse(source)
         switch format {
         case "vtt":
-            return "WEBVTT\n\n" + cues.map { "\(timestamp($0.start, vtt: true)) --> \(timestamp($0.end, vtt: true))\($0.settings.isEmpty ? "" : " " + $0.settings)\n\($0.text)\n" }.joined(separator: "\n")
+            return "WEBVTT\n\n" + cues.map { "\(timestamp($0.start, vtt: true)) --> \(timestamp($0.end, vtt: true))\($0.settings.isEmpty ? "" : " " + $0.settings)\n\(vttText($0.text))\n" }.joined(separator: "\n")
         case "srt":
             return cues.enumerated().map { index, cue in
                 "\(index + 1)\n\(timestamp(cue.start, vtt: false)) --> \(timestamp(cue.end, vtt: false))\n\(srtText(cue.text))\n"
@@ -71,6 +71,12 @@ enum SubtitleCodec {
     private static func timestamp(_ value: Int64, vtt: Bool) -> String {
         let hour = value / 3_600_000, min = value / 60_000 % 60, sec = value / 1000 % 60, ms = value % 1000
         return String(format: "%02lld:%02lld:%02lld%@%03lld", hour, min, sec, vtt ? "." : ",", ms)
+    }
+    /// WebVTT reads a bare "<" as the start of a tag and ends a cue at "-->",
+    /// so SRT text keeps its markup tags and escapes everything else.
+    private static func vttText(_ text: String) -> String {
+        text.replacingOccurrences(of: #"<(?!/?[A-Za-z][^<>]*>)"#, with: "&lt;", options: .regularExpression)
+            .replacingOccurrences(of: "-->", with: "--&gt;")
     }
     private static func srtText(_ text: String) -> String {
         let withoutTags = text.replacingOccurrences(of: #"</?(?:c(?:\.[^ >]*)?|v|lang|ruby|rt)(?:\s+[^>]*)?>|<\d{2}:\d{2}[^>]*>"#, with: "", options: .regularExpression)
