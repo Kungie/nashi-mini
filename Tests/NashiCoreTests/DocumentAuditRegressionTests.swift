@@ -59,6 +59,12 @@ final class DocumentAuditRegressionTests: XCTestCase {
         XCTAssertEqual(DocumentText.decodeEntities("&#146;&#X41;"), "\u{92}&#X41;")
     }
 
+    func testWebVTTDirectionMarksSurviveTextExport() throws {
+        let source = "WEBVTT\n\n00:00:01.000 --> 00:00:02.000\n<v Bob>&rlm;שלום</v> A&lrm;B &amp;lrm;\n\n"
+        let input = try fixture("Marks.vtt", data: Data(source.utf8))
+        XCTAssertEqual(try SubtitleCodec.convert(input, to: "txt", token: .init()), "\u{200F}שלום A\u{200E}B &lrm;\n")
+    }
+
     func testUTF16BOMAndBOMLessTextRetainUnicode() throws {
         let text = "Nashi Şişli — café\n"
         let encodings: [(String, Data)] = [

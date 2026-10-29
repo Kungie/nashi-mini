@@ -81,7 +81,9 @@ enum SubtitleCodec {
         return DocumentText.decodeEntities(webVTT, html: true)
     }
     private static func plainText(_ text: String) -> String {
-        DocumentText.decodeEntities(text.replacingOccurrences(of: "<[^>]+>", with: "", options: .regularExpression), html: true)
+        let withoutTags = text.replacingOccurrences(of: "<[^>]+>", with: "", options: .regularExpression)
+        // Direction marks keep right-to-left lines readable in the exported text too.
+        return DocumentText.decodeEntities(withoutTags.replacingOccurrences(of: "&lrm;", with: "\u{200E}").replacingOccurrences(of: "&rlm;", with: "\u{200F}"), html: true)
     }
 }
 
