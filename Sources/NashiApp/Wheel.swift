@@ -211,7 +211,10 @@ final class WheelView:NSView {
     private func incoming(_ sender:NSDraggingInfo)->Bool {
         let urls=WebLinkPayload.urls(from:sender.draggingPasteboard)
         guard !urls.isEmpty else { return false }
-        if urls != inputs { onDragInputs?(urls) };updateSelection(convert(sender.draggingLocation,from:nil));return true
+        if urls != inputs { onDragInputs?(urls) }
+        // show() refuses new inputs while a job runs; the petals still belong to the old ones.
+        guard urls == inputs else { selected=nil;return false }
+        updateSelection(convert(sender.draggingLocation,from:nil));return true
     }
     override func draggingEntered(_ sender:NSDraggingInfo)->NSDragOperation { incoming(sender) ? .copy:[] }
     override func draggingUpdated(_ sender:NSDraggingInfo)->NSDragOperation { incoming(sender) ? .copy:[] }
