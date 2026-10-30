@@ -1710,6 +1710,7 @@
 "SHIFT LOCKS THE RATIO · RETURN CROPS\nDRAG INSIDE TO MOVE; DRAG A HANDLE TO RESIZE." = "MAJ VERROUILLE LES PROPORTIONS · RETOUR RECADRE\nFAITES GLISSER À L’INTÉRIEUR POUR DÉPLACER ; FAITES GLISSER UNE POIGNÉE POUR REDIMENSIONNER.";
 "SHOW IN EXPLORER" = "AFFICHER DANS L’EXPLORATEUR";
 "SHOW IN FINDER" = "AFFICHER DANS LE FINDER";
+"SHOW LESS" = "AFFICHER MOINS";
 "SHOW NASHI IN FINDER" = "AFFICHER NASHI DANS LE FINDER";
 "SHOW ORIGINAL" = "AFFICHER L’ORIGINAL";
 "SILENCE THRESHOLD" = "SEUIL DE SILENCE";
@@ -1849,6 +1850,7 @@
 "Show Original" = "Afficher l’original";
 "Show in Explorer" = "Afficher dans l’Explorateur";
 "Show in Finder" = "Afficher dans le Finder";
+"Show less" = "Afficher moins";
 "Show original" = "Afficher l’original";
 "Silence threshold" = "Seuil de silence";
 "Skip tour" = "Passer la visite";
