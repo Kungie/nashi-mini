@@ -1731,6 +1731,7 @@
 "SHIFT TO CONVERT" = "DÖNÜŞTÜRMEK İÇİN SHIFT";
 "SHOW IN EXPLORER" = "DOSYA GEZGİNİ'NDE GÖSTER";
 "SHOW IN FINDER" = "FINDER'DA GÖSTER";
+"SHOW LESS" = "DAHA AZ GÖSTER";
 "SHOW NASHI IN FINDER" = "NASHI'Yİ FINDER'DA GÖSTER";
 "SHOW ORIGINAL" = "ORİJİNALİ GÖSTER";
 "SILENCE THRESHOLD" = "SESSİZLİK EŞİĞİ";
@@ -1873,6 +1874,7 @@
 "Show Original" = "Orijinali Göster";
 "Show in Explorer" = "Dosya Gezgini'nde Göster";
 "Show in Finder" = "Finder'da Göster";
+"Show less" = "Daha az göster";
 "Show original" = "Orijinali göster";
 "Silence threshold" = "Sessizlik eşiği";
 "Skip tour" = "Turu geç";

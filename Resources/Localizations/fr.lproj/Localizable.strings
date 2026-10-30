@@ -1731,6 +1731,7 @@
 "SHIFT TO CONVERT" = "MAJ POUR CONVERTIR";
 "SHOW IN EXPLORER" = "AFFICHER DANS L’EXPLORATEUR";
 "SHOW IN FINDER" = "AFFICHER DANS LE FINDER";
+"SHOW LESS" = "AFFICHER MOINS";
 "SHOW NASHI IN FINDER" = "AFFICHER NASHI DANS LE FINDER";
 "SHOW ORIGINAL" = "AFFICHER L’ORIGINAL";
 "SILENCE THRESHOLD" = "SEUIL DE SILENCE";
@@ -1873,6 +1874,7 @@
 "Show Original" = "Afficher l’original";
 "Show in Explorer" = "Afficher dans l’Explorateur";
 "Show in Finder" = "Afficher dans le Finder";
+"Show less" = "Afficher moins";
 "Show original" = "Afficher l’original";
 "Silence threshold" = "Seuil de silence";
 "Skip tour" = "Passer la visite";

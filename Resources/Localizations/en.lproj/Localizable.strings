@@ -1731,6 +1731,7 @@
 "SHIFT TO CONVERT" = "SHIFT TO CONVERT";
 "SHOW IN EXPLORER" = "SHOW IN EXPLORER";
 "SHOW IN FINDER" = "SHOW IN FINDER";
+"SHOW LESS" = "SHOW LESS";
 "SHOW NASHI IN FINDER" = "SHOW NASHI IN FINDER";
 "SHOW ORIGINAL" = "SHOW ORIGINAL";
 "SILENCE THRESHOLD" = "SILENCE THRESHOLD";
@@ -1873,6 +1874,7 @@
 "Show Original" = "Show Original";
 "Show in Explorer" = "Show in Explorer";
 "Show in Finder" = "Show in Finder";
+"Show less" = "Show less";
 "Show original" = "Show original";
 "Silence threshold" = "Silence threshold";
 "Skip tour" = "Skip tour";
