@@ -1156,6 +1156,7 @@
 "MOVE" = "MOVE";
 "MOVE & SHARE" = "MOVE & SHARE";
 "MOVE DOWN" = "MOVE DOWN";
+"MOVE HERE" = "MOVE HERE";
 "MOVE LEFT" = "MOVE LEFT";
 "MOVE REGULAR FILES AND FOLDERS WITHOUT SYMBOLIC LINKS." = "MOVE REGULAR FILES AND FOLDERS WITHOUT SYMBOLIC LINKS.";
 "MOVE RIGHT" = "MOVE RIGHT";
@@ -1196,6 +1197,7 @@
 "Monospaced" = "Monospaced";
 "Move" = "Move";
 "Move & share" = "Move & share";
+"Move Here" = "Move Here";
 "Move Left" = "Move Left";
 "Move Right" = "Move Right";
 "Move down" = "Move down";
