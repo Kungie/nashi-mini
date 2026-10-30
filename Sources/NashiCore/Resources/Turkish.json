@@ -111,6 +111,8 @@
   "Ready when you log in": "Oturum açtığında hazır",
   "Optional. You can change this in Settings.": "İsteğe bağlı. Ayarlardan değiştirebilirsin.",
   "Pick a folder you work in. Fresh copies are saved beside the originals by default.": "Çalıştığın bir klasörü seç. Yeni kopyalar varsayılan olarak orijinallerin yanına kaydedilir.",
+  "Choose a folder": "Bir klasör seç",
+  "Folder access ready": "Klasör erişimi hazır",
   "You can also choose files from the main window.": "Ana pencereden de dosya seçebilirsin.",
   "Skip tour": "Turu geç",
   "Back": "Geri",
