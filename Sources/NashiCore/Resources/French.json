@@ -167,6 +167,8 @@
   "Cancel download": "Annuler le téléchargement",
   "Cancel": "Annuler",
   "Download cancelled. No partial files were kept.": "Téléchargement annulé. Aucun fichier partiel n’a été conservé.",
+  "Paste one complete http:// or https:// media link.": "Collez un lien média http:// ou https:// complet.",
+  "Copy a video share link or an image address first.": "Copiez d’abord le lien de partage d’une vidéo ou l’adresse d’une image.",
   "Copy a public media link first.": "Copiez d’abord un lien média public.",
   "Clipboard is busy. Try again.": "Le presse-papiers est occupé. Réessayez.",
   "Instagram photo posts open a photo selection. For videos, use the share link; for other photos, drag the image or use Copy Image Address. Public media only; login-required and protected items may be unavailable.": "Les publications de photos Instagram ouvrent une sélection de photos. Pour les vidéos, utilisez le lien de partage ; pour les autres photos, faites glisser l’image ou utilisez Copier l’adresse de l’image. Médias publics uniquement ; les éléments protégés ou nécessitant une connexion peuvent être indisponibles.",

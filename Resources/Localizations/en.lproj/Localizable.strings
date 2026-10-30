@@ -403,6 +403,7 @@
 "COPY A LINK → ⌃⇧D, OR DRAG IT WITH ⌘." = "COPY A LINK → ⌃⇧D, OR DRAG IT WITH ⌘.";
 "COPY A LINK, THEN CHOOSE DOWNLOAD LINK FROM THE NASHI MENU." = "COPY A LINK, THEN CHOOSE DOWNLOAD LINK FROM THE NASHI MENU.";
 "COPY A PUBLIC MEDIA LINK FIRST." = "COPY A PUBLIC MEDIA LINK FIRST.";
+"COPY A VIDEO SHARE LINK OR AN IMAGE ADDRESS FIRST." = "COPY A VIDEO SHARE LINK OR AN IMAGE ADDRESS FIRST.";
 "COPY PATH" = "COPY PATH";
 "CORNER RADIUS" = "CORNER RADIUS";
 "CORNERS" = "CORNERS";
@@ -575,6 +576,7 @@
 "Copy a link → ⌃⇧D, or drag it with ⌘." = "Copy a link → ⌃⇧D, or drag it with ⌘.";
 "Copy a link, then choose Download Link from the Nashi menu." = "Copy a link, then choose Download Link from the Nashi menu.";
 "Copy a public media link first." = "Copy a public media link first.";
+"Copy a video share link or an image address first." = "Copy a video share link or an image address first.";
 "Copy path" = "Copy path";
 "Corner radius" = "Corner radius";
 "Corners" = "Corners";
@@ -1370,6 +1372,7 @@
 "PASTE A PUBLIC VIDEO, IMAGE OR AUDIO PAGE LINK" = "PASTE A PUBLIC VIDEO, IMAGE OR AUDIO PAGE LINK";
 "PASTE A VIDEO SHARE LINK OR IMAGE ADDRESS" = "PASTE A VIDEO SHARE LINK OR IMAGE ADDRESS";
 "PASTE LINK" = "PASTE LINK";
+"PASTE ONE COMPLETE HTTP:// OR HTTPS:// MEDIA LINK." = "PASTE ONE COMPLETE HTTP:// OR HTTPS:// MEDIA LINK.";
 "PASTE ONE COMPLETE PUBLIC MEDIA LINK." = "PASTE ONE COMPLETE PUBLIC MEDIA LINK.";
 "PASTED IMAGE" = "PASTED IMAGE";
 "PASTED TEXT" = "PASTED TEXT";
@@ -1443,6 +1446,7 @@
 "Paste a public video, image or audio page link" = "Paste a public video, image or audio page link";
 "Paste a video share link or image address" = "Paste a video share link or image address";
 "Paste link" = "Paste link";
+"Paste one complete http:// or https:// media link." = "Paste one complete http:// or https:// media link.";
 "Paste one complete public media link." = "Paste one complete public media link.";
 "Pasted image" = "Pasted image";
 "Pasted text" = "Pasted text";

@@ -167,6 +167,8 @@
   "Cancel download": "İndirmeyi iptal et",
   "Cancel": "İptal",
   "Download cancelled. No partial files were kept.": "İndirme iptal edildi. Yarım kalan dosyalar silindi.",
+  "Paste one complete http:// or https:// media link.": "Bir http:// veya https:// medya bağlantısının tamamını yapıştır.",
+  "Copy a video share link or an image address first.": "Önce bir video paylaşım bağlantısı veya görsel adresi kopyala.",
   "Copy a public media link first.": "Önce herkese açık bir medya bağlantısı kopyala.",
   "Clipboard is busy. Try again.": "Pano meşgul. Tekrar dene.",
   "Instagram photo posts open a photo selection. For videos, use the share link; for other photos, drag the image or use Copy Image Address. Public media only; login-required and protected items may be unavailable.": "Instagram fotoğraf gönderilerinde fotoğraf seçimi açılır. Videolar için paylaşım bağlantısını kullan; diğer fotoğrafları sürükle veya görsel adresini kopyala. Yalnızca herkese açık medya desteklenir; giriş gerektiren veya korumalı içerikler kullanılamayabilir.",
