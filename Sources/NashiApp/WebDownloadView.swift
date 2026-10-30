@@ -188,9 +188,10 @@ struct WebDownloadView:View {
             }.padding(20)
         }.onChange(of:model.mode) { _ in model.configurationChanged() }.onChange(of:model.maximumHeight) { _ in model.configurationChanged() }.frame(minWidth:620,minHeight:520).background(NashiPalette.canvas).tint(.nashi).buttonStyle(NashiButtonStyle(.secondary,compact:true))
     }
+    @AppStorage("appLanguage") private var language="en"
     func details(_ info:WebMediaInfo)->String {
-        var details=[info.site,info.kind.rawValue.capitalized]
-        if !info.photos.isEmpty { details.append("\(info.photos.count) \(info.photos.count==1 ? "photo":"photos")") }
+        var details=[info.site,AppLocalization.text(info.kind.rawValue.capitalized,language:language)]
+        if !info.photos.isEmpty { details.append(AppLocalization.text(info.photos.count==1 ? "1 photo":"\(info.photos.count) photos",language:language)) }
         if let width=info.imageWidth,let height=info.imageHeight { details.append("\(width) × \(height)") }
         if let duration=info.duration { details.append("\(Int(duration)/60):\(String(format:"%02d",Int(duration)%60))") }
         if let height=info.heights.max() { details.append("\(height)p") }
