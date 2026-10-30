@@ -6,8 +6,10 @@
 "%@  Tools" = "%@  Outils";
 "%@ QR code found." = "%@ code QR trouvé.";
 "%@ QR codes found." = "%@ codes QR trouvés.";
+"%@ exports" = "Exports %@";
 "%@ files" = "%@ fichiers";
 "%@ files, ready to go." = "%@ fichiers, prêts à partir.";
+"%@ input" = "Entrée %@";
 "%@ is enabled" = "%@ est activé";
 "%@ items" = "%@ éléments";
 "%@ selected" = "%@ sélectionnés";
@@ -20,8 +22,10 @@
 "%lld  Tools" = "%lld  Outils";
 "%lld QR code found." = "%lld code QR trouvé.";
 "%lld QR codes found." = "%lld codes QR trouvés.";
+"%lld exports" = "Exports %lld";
 "%lld files" = "%lld fichiers";
 "%lld files, ready to go." = "%lld fichiers, prêts à partir.";
+"%lld input" = "Entrée %lld";
 "%lld is enabled" = "%lld est activé";
 "%lld items" = "%lld éléments";
 "%lld selected" = "%lld sélectionnés";
@@ -250,6 +254,7 @@
 "BORDER" = "BORDURE";
 "BOTTOM" = "BAS";
 "BRIGHTNESS" = "LUMINOSITÉ";
+"BRING THIS FORMAT IN, THEN CHOOSE ITS NEXT FORM." = "IMPORTEZ CE FORMAT, PUIS CHOISISSEZ SA PROCHAINE FORME.";
 "BUILT FOR YOUR FILES. MADE FOR YOUR MAC." = "CONÇU POUR VOS FICHIERS. FAIT POUR VOTRE MAC.";
 "Back" = "Retour";
 "Background" = "Arrière-plan";
@@ -269,6 +274,7 @@
 "Border" = "Bordure";
 "Bottom" = "Bas";
 "Brightness" = "Luminosité";
+"Bring this format in, then choose its next form." = "Importez ce format, puis choisissez sa prochaine forme.";
 "Built for your files. Made for your Mac." = "Conçu pour vos fichiers. Fait pour votre Mac.";
 "CALLOUT" = "LÉGENDE";
 "CANCEL" = "ANNULER";
@@ -2213,6 +2219,8 @@
 "Your files, a little sweeter." = "Vos fichiers, en plus agréable.";
 "Your files. Their next form." = "Vos fichiers, sous leur prochaine forme.";
 "Your go-to exports." = "Vos exports favoris.";
+"Your go-to settings whenever you save a %@ file." = "Vos réglages favoris chaque fois que vous enregistrez un fichier %@.";
+"Your go-to settings whenever you save a %lld file." = "Vos réglages favoris chaque fois que vous enregistrez un fichier %lld.";
 "Your kind of flow." = "Votre façon de travailler.";
 "Your next fresh copy will land here." = "Votre prochaine copie arrivera ici.";
 "Your original stays safe" = "Votre original reste intact";
