@@ -15,6 +15,8 @@
 "%@ ways to change it" = "%@ façons de le transformer";
 "%@ · Nashi" = "%@ · Nashi";
 "%@ · Original stays safe" = "%@ · L’original reste intact";
+"%@, page %@" = "%@, page %@";
+"%@, page %lld" = "%@, page %lld";
 "%lld  Convert" = "%lld  Convertir";
 "%lld  File actions" = "%lld  Actions sur les fichiers";
 "%lld  Tools" = "%lld  Outils";
@@ -29,6 +31,8 @@
 "%lld ways to change it" = "%lld façons de le transformer";
 "%lld · Nashi" = "%lld · Nashi";
 "%lld · Original stays safe" = "%lld · L’original reste intact";
+"%lld, page %@" = "%lld, page %@";
+"%lld, page %lld" = "%lld, page %lld";
 "1 ITEM" = "1 ÉLÉMENT";
 "1 item" = "1 élément";
 "1/3 LEFT · MIDDLE · RIGHT   /   1/2 LEFT · RIGHT   /   2/3 LEFT · RIGHT" = "1/3 GAUCHE · MILIEU · DROITE   /   1/2 GAUCHE · DROITE   /   2/3 GAUCHE · DROITE";

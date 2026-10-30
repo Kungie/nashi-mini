@@ -15,6 +15,8 @@
 "%@ ways to change it" = "%@ farklı biçime çevir";
 "%@ · Nashi" = "%@ · Nashi";
 "%@ · Original stays safe" = "%@ · Orijinal dosyan güvende";
+"%@, page %@" = "%@, sayfa %@";
+"%@, page %lld" = "%@, sayfa %lld";
 "%lld  Convert" = "%lld  Dönüştür";
 "%lld  File actions" = "%lld  Dosya işlemleri";
 "%lld  Tools" = "%lld  Araçlar";
@@ -29,6 +31,8 @@
 "%lld ways to change it" = "%lld farklı biçime çevir";
 "%lld · Nashi" = "%lld · Nashi";
 "%lld · Original stays safe" = "%lld · Orijinal dosyan güvende";
+"%lld, page %@" = "%lld, sayfa %@";
+"%lld, page %lld" = "%lld, sayfa %lld";
 "1 ITEM" = "1 ÖĞE";
 "1 item" = "1 öğe";
 "1/3 LEFT · MIDDLE · RIGHT   /   1/2 LEFT · RIGHT   /   2/3 LEFT · RIGHT" = "1/3 SOL · ORTA · SAĞ   /   1/2 SOL · SAĞ   /   2/3 SOL · SAĞ";

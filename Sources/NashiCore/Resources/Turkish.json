@@ -228,6 +228,7 @@
   "Read QR codes": "QR kodlarını oku",
   "A little code, decoded.": "Küçük bir kod, çözüldü.",
   "Looking for little squares…": "QR kodları aranıyor…",
+  "{0}, page {1}": "{0}, sayfa {1}",
   "No QR codes this time.": "QR kodu bulunamadı.",
   "Try a clearer image or another PDF.": "Daha net bir görsel veya başka bir PDF dene.",
   "Scan again": "Yeniden tara",
