@@ -10,6 +10,7 @@
 "%@ files, ready to go." = "%@ files, ready to go.";
 "%@ is enabled" = "%@ is enabled";
 "%@ items" = "%@ items";
+"%@ photos" = "%@ photos";
 "%@ selected" = "%@ selected";
 "%@ selected · Drag to carry files" = "%@ selected · Drag to carry files";
 "%@ ways to change it" = "%@ ways to change it";
@@ -24,13 +25,16 @@
 "%lld files, ready to go." = "%lld files, ready to go.";
 "%lld is enabled" = "%lld is enabled";
 "%lld items" = "%lld items";
+"%lld photos" = "%lld photos";
 "%lld selected" = "%lld selected";
 "%lld selected · Drag to carry files" = "%lld selected · Drag to carry files";
 "%lld ways to change it" = "%lld ways to change it";
 "%lld · Nashi" = "%lld · Nashi";
 "%lld · Original stays safe" = "%lld · Original stays safe";
 "1 ITEM" = "1 ITEM";
+"1 PHOTO" = "1 PHOTO";
 "1 item" = "1 item";
+"1 photo" = "1 photo";
 "1/3 LEFT · MIDDLE · RIGHT   /   1/2 LEFT · RIGHT   /   2/3 LEFT · RIGHT" = "1/3 LEFT · MIDDLE · RIGHT   /   1/2 LEFT · RIGHT   /   2/3 LEFT · RIGHT";
 "1/3 left · middle · right   /   1/2 left · right   /   2/3 left · right" = "1/3 left · middle · right   /   1/2 left · right   /   2/3 left · right";
 "1280 PX LONGEST EDGE" = "1280 PX LONGEST EDGE";
@@ -1308,6 +1312,7 @@
 "ORGANIZE PDF" = "ORGANIZE PDF";
 "ORIGINAL" = "ORIGINAL";
 "ORIGINAL DIMENSIONS" = "ORIGINAL DIMENSIONS";
+"ORIGINAL FILE" = "ORIGINAL FILE";
 "ORIGINAL IMAGE · READY TO DOWNLOAD" = "ORIGINAL IMAGE · READY TO DOWNLOAD";
 "ORIGINAL STAYS SAFE" = "ORIGINAL STAYS SAFE";
 "ORIGINALS REMAIN SAFE. CHOOSE WHERE NEW COPIES SHOULD LAND." = "ORIGINALS REMAIN SAFE. CHOOSE WHERE NEW COPIES SHOULD LAND.";
@@ -1349,6 +1354,7 @@
 "Organize PDF" = "Organize PDF";
 "Original" = "Original";
 "Original dimensions" = "Original dimensions";
+"Original file" = "Original file";
 "Original image · ready to download" = "Original image · ready to download";
 "Original size: %@" = "Original size: %@";
 "Original size: %lld" = "Original size: %lld";
@@ -1447,6 +1453,8 @@
 "Pasted image" = "Pasted image";
 "Pasted text" = "Pasted text";
 "Pause" = "Pause";
+"Photo %@" = "Photo %@";
+"Photo %lld" = "Photo %lld";
 "Photos" = "Photos";
 "Pick a folder you work in. Fresh copies are saved beside the originals by default." = "Pick a folder you work in. Fresh copies are saved beside the originals by default.";
 "Pin" = "Pin";

@@ -10,6 +10,7 @@
 "%@ files, ready to go." = "%@ dosya hazır.";
 "%@ is enabled" = "%@ izni açık";
 "%@ items" = "%@ öğe";
+"%@ photos" = "%@ fotoğraf";
 "%@ selected" = "%@ seçili";
 "%@ selected · Drag to carry files" = "%@ seçili · Dosyaları taşımak için sürükle";
 "%@ ways to change it" = "%@ farklı biçime çevir";
@@ -24,13 +25,16 @@
 "%lld files, ready to go." = "%lld dosya hazır.";
 "%lld is enabled" = "%lld izni açık";
 "%lld items" = "%lld öğe";
+"%lld photos" = "%lld fotoğraf";
 "%lld selected" = "%lld seçili";
 "%lld selected · Drag to carry files" = "%lld seçili · Dosyaları taşımak için sürükle";
 "%lld ways to change it" = "%lld farklı biçime çevir";
 "%lld · Nashi" = "%lld · Nashi";
 "%lld · Original stays safe" = "%lld · Orijinal dosyan güvende";
 "1 ITEM" = "1 ÖĞE";
+"1 PHOTO" = "1 FOTOĞRAF";
 "1 item" = "1 öğe";
+"1 photo" = "1 fotoğraf";
 "1/3 LEFT · MIDDLE · RIGHT   /   1/2 LEFT · RIGHT   /   2/3 LEFT · RIGHT" = "1/3 SOL · ORTA · SAĞ   /   1/2 SOL · SAĞ   /   2/3 SOL · SAĞ";
 "1/3 left · middle · right   /   1/2 left · right   /   2/3 left · right" = "1/3 sol · orta · sağ   /   1/2 sol · sağ   /   2/3 sol · sağ";
 "1280 PX LONGEST EDGE" = "UZUN KENAR 1280 PX";
@@ -1308,6 +1312,7 @@
 "ORGANIZE PDF" = "PDF'Yİ DÜZENLE";
 "ORIGINAL" = "ORİJİNAL";
 "ORIGINAL DIMENSIONS" = "ORİJİNAL BOYUTLAR";
+"ORIGINAL FILE" = "ORİJİNAL DOSYA";
 "ORIGINAL IMAGE · READY TO DOWNLOAD" = "ORİJİNAL GÖRSEL · İNDİRMEYE HAZIR";
 "ORIGINAL STAYS SAFE" = "ORİJİNAL DOSYAN GÜVENDE";
 "ORIGINALS REMAIN SAFE. CHOOSE WHERE NEW COPIES SHOULD LAND." = "ORİJİNALLER GÜVENDE. YENİ KOPYALARIN NEREYE KAYDEDİLECEĞİNİ SEÇ.";
@@ -1349,6 +1354,7 @@
 "Organize PDF" = "PDF'yi Düzenle";
 "Original" = "Orijinal";
 "Original dimensions" = "Orijinal boyutlar";
+"Original file" = "Orijinal dosya";
 "Original image · ready to download" = "Orijinal görsel · indirmeye hazır";
 "Original size: %@" = "Orijinal boyut: %@";
 "Original size: %lld" = "Orijinal boyut: %lld";
@@ -1447,6 +1453,8 @@
 "Pasted image" = "Yapıştırılan görsel";
 "Pasted text" = "Yapıştırılan metin";
 "Pause" = "Duraklat";
+"Photo %@" = "Fotoğraf %@";
+"Photo %lld" = "Fotoğraf %lld";
 "Photos" = "Fotoğraflar";
 "Pick a folder you work in. Fresh copies are saved beside the originals by default." = "Çalıştığın bir klasörü seç. Yeni kopyalar varsayılan olarak orijinallerin yanına kaydedilir.";
 "Pin" = "Sabitle";
