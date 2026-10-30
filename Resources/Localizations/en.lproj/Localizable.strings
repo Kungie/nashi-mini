@@ -1640,6 +1640,7 @@
 "SAVE DEFAULTS" = "SAVE DEFAULTS";
 "SAVE DOWNLOADED MEDIA HERE" = "SAVE DOWNLOADED MEDIA HERE";
 "SAVE DOWNLOADED MEDIA TO…" = "SAVE DOWNLOADED MEDIA TO…";
+"SAVE DOWNLOADS HERE" = "SAVE DOWNLOADS HERE";
 "SAVE EDITED COPY" = "SAVE EDITED COPY";
 "SAVE METADATA COPY" = "SAVE METADATA COPY";
 "SAVE MUTED COPY" = "SAVE MUTED COPY";
@@ -1763,6 +1764,7 @@
 "Save %lld frames" = "Save %lld frames";
 "Save 1 frame" = "Save 1 frame";
 "Save Connection" = "Save Connection";
+"Save Downloads Here" = "Save Downloads Here";
 "Save a copy" = "Save a copy";
 "Save annotated copy" = "Save annotated copy";
 "Save as" = "Save as";
