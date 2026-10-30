@@ -376,6 +376,7 @@
 "COLOR" = "COLOR";
 "COLUMN" = "COLUMN";
 "COLUMNS" = "COLUMNS";
+"COMMAND FOR TOOLS" = "COMMAND FOR TOOLS";
 "COMPATIBILITY" = "COMPATIBILITY";
 "COMPRESS" = "COMPRESS";
 "COMPRESS & SAVE" = "COMPRESS & SAVE";
@@ -387,8 +388,10 @@
 "COMPRESSION REQUIRES A KNOWN DURATION." = "COMPRESSION REQUIRES A KNOWN DURATION.";
 "COMPRESSION SETTINGS" = "COMPRESSION SETTINGS";
 "COMPRESSION STRENGTH" = "COMPRESSION STRENGTH";
+"CONTINUE" = "CONTINUE";
 "CONTINUE TO NASHI" = "CONTINUE TO NASHI";
 "CONTRAST" = "CONTRAST";
+"CONTROL FOR ACTIONS" = "CONTROL FOR ACTIONS";
 "CONVERSION SETTINGS" = "CONVERSION SETTINGS";
 "CONVERSION WHEEL" = "CONVERSION WHEEL";
 "CONVERSIONS" = "CONVERSIONS";
@@ -535,6 +538,7 @@
 "Color" = "Color";
 "Column" = "Column";
 "Columns" = "Columns";
+"Command for tools" = "Command for tools";
 "Compatibility" = "Compatibility";
 "Compress" = "Compress";
 "Compress & save" = "Compress & save";
@@ -554,8 +558,10 @@
 "Compression preset" = "Compression preset";
 "Compression requires a known duration." = "Compression requires a known duration.";
 "Compression strength" = "Compression strength";
+"Continue" = "Continue";
 "Continue to Nashi" = "Continue to Nashi";
 "Contrast" = "Contrast";
+"Control for actions" = "Control for actions";
 "Conversion Settings" = "Conversion Settings";
 "Conversion wheel" = "Conversion wheel";
 "Conversions" = "Conversions";
@@ -643,6 +649,7 @@
 "DOWNLOADING LIBREOFFICE 26.8.1…" = "DOWNLOADING LIBREOFFICE 26.8.1…";
 "DOWNLOADING…" = "DOWNLOADING…";
 "DRAG A CROP INSIDE THE IMAGE." = "DRAG A CROP INSIDE THE IMAGE.";
+"DRAG A FILE IN FINDER, TAP SHIFT, AND DROP ONTO ITS NEXT FORMAT." = "DRAG A FILE IN FINDER, TAP SHIFT, AND DROP ONTO ITS NEXT FORMAT.";
 "DRAG A RANGE TO MOVE IT; DRAG ITS EDGES TO RESIZE. DRAG EMPTY SPACE TO ADD." = "DRAG A RANGE TO MOVE IT; DRAG ITS EDGES TO RESIZE. DRAG EMPTY SPACE TO ADD.";
 "DRAG A REGION TO COVER WITH A SOLID BLOCK." = "DRAG A REGION TO COVER WITH A SOLID BLOCK.";
 "DRAG A WINDOW BY ITS TITLE BAR OR RESIZE BORDER, THEN TAP SHIFT OR COMMAND. HOVER OVER A LAYOUT AND RELEASE THE MOUSE TO PLACE IT. ESCAPE CANCELS." = "DRAG A WINDOW BY ITS TITLE BAR OR RESIZE BORDER, THEN TAP SHIFT OR COMMAND. HOVER OVER A LAYOUT AND RELEASE THE MOUSE TO PLACE IT. ESCAPE CANCELS.";
@@ -718,6 +725,7 @@
 "Downloading Nashi %lld…" = "Downloading Nashi %lld…";
 "Downloading…" = "Downloading…";
 "Drag a crop inside the image." = "Drag a crop inside the image.";
+"Drag a file in Finder, tap Shift, and drop onto its next format." = "Drag a file in Finder, tap Shift, and drop onto its next format.";
 "Drag a range to move it; drag its edges to resize. Drag empty space to add." = "Drag a range to move it; drag its edges to resize. Drag empty space to add.";
 "Drag a region to cover with a solid block." = "Drag a region to cover with a solid block.";
 "Drag a window by its title bar or resize border, then tap Shift or Command. Hover over a layout and release the mouse to place it. Escape cancels." = "Drag a window by its title bar or resize border, then tap Shift or Command. Hover over a layout and release the mouse to place it. Escape cancels.";
@@ -1076,6 +1084,7 @@
 "LEFT THIRD" = "LEFT THIRD";
 "LEFT TWO-THIRDS" = "LEFT TWO-THIRDS";
 "LEFT VOLUME" = "LEFT VOLUME";
+"LET’S GO" = "LET’S GO";
 "LET’S MAKE SOMETHING OF IT." = "LET’S MAKE SOMETHING OF IT.";
 "LET’S TRY THAT AGAIN." = "LET’S TRY THAT AGAIN.";
 "LIBRARY" = "LIBRARY";
@@ -1105,6 +1114,7 @@
 "Left third" = "Left third";
 "Left two-thirds" = "Left two-thirds";
 "Left volume" = "Left volume";
+"Let’s go" = "Let’s go";
 "Let’s make something of it." = "Let’s make something of it.";
 "Let’s try that again." = "Let’s try that again.";
 "Library" = "Library";
@@ -1708,6 +1718,7 @@
 "SHARPEN" = "SHARPEN";
 "SHARPNESS" = "SHARPNESS";
 "SHIFT LOCKS THE RATIO · RETURN CROPS\nDRAG INSIDE TO MOVE; DRAG A HANDLE TO RESIZE." = "SHIFT LOCKS THE RATIO · RETURN CROPS\nDRAG INSIDE TO MOVE; DRAG A HANDLE TO RESIZE.";
+"SHIFT TO CONVERT" = "SHIFT TO CONVERT";
 "SHOW IN EXPLORER" = "SHOW IN EXPLORER";
 "SHOW IN FINDER" = "SHOW IN FINDER";
 "SHOW NASHI IN FINDER" = "SHOW NASHI IN FINDER";
@@ -1845,6 +1856,7 @@
 "Sharpen" = "Sharpen";
 "Sharpness" = "Sharpness";
 "Shift locks the ratio · Return crops\nDrag inside to move; drag a handle to resize." = "Shift locks the ratio · Return crops\nDrag inside to move; drag a handle to resize.";
+"Shift to convert" = "Shift to convert";
 "Show Nashi in Finder" = "Show Nashi in Finder";
 "Show Original" = "Show Original";
 "Show in Explorer" = "Show in Explorer";
@@ -1889,6 +1901,8 @@
 "Subtitles" = "Subtitles";
 "Subtle animations" = "Subtle animations";
 "System" = "System";
+"TAP COMMAND WHILE DRAGGING TO CROP, COMPRESS, ANNOTATE, AND GIVE YOUR FILE A LITTLE LOVE." = "TAP COMMAND WHILE DRAGGING TO CROP, COMPRESS, ANNOTATE, AND GIVE YOUR FILE A LITTLE LOVE.";
+"TAP CONTROL WHILE DRAGGING TO COPY, MOVE, SHARE, OR CARRY FILES IN A FLOATING SHELF." = "TAP CONTROL WHILE DRAGGING TO COPY, MOVE, SHARE, OR CARRY FILES IN A FLOATING SHELF.";
 "TAP THE CHOSEN MODIFIER COMBINATION WHILE DRAGGING FILES." = "TAP THE CHOSEN MODIFIER COMBINATION WHILE DRAGGING FILES.";
 "TARGET" = "TARGET";
 "TARGET LOUDNESS" = "TARGET LOUDNESS";
@@ -1974,6 +1988,8 @@
 "TRY A CLEARER IMAGE OR ANOTHER PDF." = "TRY A CLEARER IMAGE OR ANOTHER PDF.";
 "TRY FEEDBACK" = "TRY FEEDBACK";
 "TURN OFF UNIFORM WIDTH TO PRESERVE THIS PDF’S FORM FIELDS, ATTACHMENTS, LINKS OR NAVIGATION." = "TURN OFF UNIFORM WIDTH TO PRESERVE THIS PDF’S FORM FIELDS, ATTACHMENTS, LINKS OR NAVIGATION.";
+"Tap Command while dragging to crop, compress, annotate, and give your file a little love." = "Tap Command while dragging to crop, compress, annotate, and give your file a little love.";
+"Tap Control while dragging to copy, move, share, or carry files in a floating shelf." = "Tap Control while dragging to copy, move, share, or carry files in a floating shelf.";
 "Tap the chosen modifier combination while dragging files." = "Tap the chosen modifier combination while dragging files.";
 "Target" = "Target";
 "Target LUFS" = "Target LUFS";
