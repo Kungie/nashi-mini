@@ -674,7 +674,7 @@ struct ToolEditor:View {
     }
     func detectRedactions(faces:Bool) {
         guard let input,readyToApply,!isLoading else { return }
-        let generation=editorGeneration,token=previewToken
+        let generation=editorGeneration,token=previewToken;previewError=nil
         Task { do {
             let regions=try await Task.detached { try ImageEngine.recognizedRegions(input,faces:faces,text:!faces) }.value
             try checkGeneration(generation,token:token);options.redactions += regions.map(\.rect)
