@@ -299,7 +299,7 @@ struct JobProgressView:View {
                         ProgressView().controlSize(.small)
                         VStack(alignment:.leading,spacing:4) { Text("A fresh file is on its way.").font(.system(size:13,weight:.semibold,design:.rounded));LText(state.progressLabel).font(.system(size:11)).foregroundStyle(.secondary).lineLimit(1) }
                         Spacer()
-                        if state.progressIsDeterminate { Text("\(Int(state.progress*100))%").font(.system(size:12,weight:.semibold,design:.rounded)).monospacedDigit().foregroundStyle(.secondary) }
+                        if state.progressIsDeterminate { Text(Int(state.progress*100),format:.percent).font(.system(size:12,weight:.semibold,design:.rounded)).monospacedDigit().foregroundStyle(.secondary) }
                         Button("Cancel") { state.token.cancel() }.buttonStyle(NashiButtonStyle(.secondary,compact:true))
                     }
                     JobProgressBar(state:state)
