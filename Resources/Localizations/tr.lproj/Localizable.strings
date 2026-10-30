@@ -1674,6 +1674,7 @@
 "SAVE DEFAULTS" = "VARSAYILANLARI KAYDET";
 "SAVE DOWNLOADED MEDIA HERE" = "İNDİRİLEN MEDYAYI BURAYA KAYDET";
 "SAVE DOWNLOADED MEDIA TO…" = "İNDİRİLEN MEDYAYI ŞURAYA KAYDET…";
+"SAVE DOWNLOADS HERE" = "İNDİRMELERİ BURAYA KAYDET";
 "SAVE EDITED COPY" = "DÜZENLENMİŞ KOPYAYI KAYDET";
 "SAVE METADATA COPY" = "META VERİ KOPYASINI KAYDET";
 "SAVE MUTED COPY" = "SESSİZ KOPYAYI KAYDET";
@@ -1801,6 +1802,7 @@
 "Save %lld frames" = "%lld kare kaydet";
 "Save 1 frame" = "1 kare kaydet";
 "Save Connection" = "Bağlantıyı Kaydet";
+"Save Downloads Here" = "İndirmeleri Buraya Kaydet";
 "Save a copy" = "Kopya kaydet";
 "Save annotated copy" = "İşaretlenmiş kopyayı kaydet";
 "Save as" = "Farklı kaydet";

@@ -1674,6 +1674,7 @@
 "SAVE DEFAULTS" = "ENREGISTRER LES RÉGLAGES PAR DÉFAUT";
 "SAVE DOWNLOADED MEDIA HERE" = "ENREGISTRER LES MÉDIAS TÉLÉCHARGÉS ICI";
 "SAVE DOWNLOADED MEDIA TO…" = "ENREGISTRER LES MÉDIAS TÉLÉCHARGÉS DANS…";
+"SAVE DOWNLOADS HERE" = "ENREGISTRER LES TÉLÉCHARGEMENTS ICI";
 "SAVE EDITED COPY" = "ENREGISTRER LA COPIE MODIFIÉE";
 "SAVE METADATA COPY" = "ENREGISTRER LA COPIE DES MÉTADONNÉES";
 "SAVE MUTED COPY" = "ENREGISTRER LA COPIE MUETTE";
@@ -1801,6 +1802,7 @@
 "Save %lld frames" = "Enregistrer %lld images";
 "Save 1 frame" = "Enregistrer 1 image";
 "Save Connection" = "Enregistrer la connexion";
+"Save Downloads Here" = "Enregistrer les téléchargements ici";
 "Save a copy" = "Enregistrer une copie";
 "Save annotated copy" = "Enregistrer la copie annotée";
 "Save as" = "Enregistrer sous";
