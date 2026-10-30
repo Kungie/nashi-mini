@@ -6,8 +6,10 @@
 "%@  Tools" = "%@  Tools";
 "%@ QR code found." = "%@ QR code found.";
 "%@ QR codes found." = "%@ QR codes found.";
+"%@ exports" = "%@ exports";
 "%@ files" = "%@ files";
 "%@ files, ready to go." = "%@ files, ready to go.";
+"%@ input" = "%@ input";
 "%@ is enabled" = "%@ is enabled";
 "%@ items" = "%@ items";
 "%@ photos" = "%@ photos";
@@ -21,8 +23,10 @@
 "%lld  Tools" = "%lld  Tools";
 "%lld QR code found." = "%lld QR code found.";
 "%lld QR codes found." = "%lld QR codes found.";
+"%lld exports" = "%lld exports";
 "%lld files" = "%lld files";
 "%lld files, ready to go." = "%lld files, ready to go.";
+"%lld input" = "%lld input";
 "%lld is enabled" = "%lld is enabled";
 "%lld items" = "%lld items";
 "%lld photos" = "%lld photos";
@@ -258,6 +262,7 @@
 "BORDER" = "BORDER";
 "BOTTOM" = "BOTTOM";
 "BRIGHTNESS" = "BRIGHTNESS";
+"BRING THIS FORMAT IN, THEN CHOOSE ITS NEXT FORM." = "BRING THIS FORMAT IN, THEN CHOOSE ITS NEXT FORM.";
 "BUILT FOR YOUR FILES. MADE FOR YOUR MAC." = "BUILT FOR YOUR FILES. MADE FOR YOUR MAC.";
 "Back" = "Back";
 "Background" = "Background";
@@ -277,6 +282,7 @@
 "Border" = "Border";
 "Bottom" = "Bottom";
 "Brightness" = "Brightness";
+"Bring this format in, then choose its next form." = "Bring this format in, then choose its next form.";
 "Built for your files. Made for your Mac." = "Built for your files. Made for your Mac.";
 "CALLOUT" = "CALLOUT";
 "CANCEL" = "CANCEL";
@@ -2265,6 +2271,8 @@
 "Your files, a little sweeter." = "Your files, a little sweeter.";
 "Your files. Their next form." = "Your files. Their next form.";
 "Your go-to exports." = "Your go-to exports.";
+"Your go-to settings whenever you save a %@ file." = "Your go-to settings whenever you save a %@ file.";
+"Your go-to settings whenever you save a %lld file." = "Your go-to settings whenever you save a %lld file.";
 "Your kind of flow." = "Your kind of flow.";
 "Your next fresh copy will land here." = "Your next fresh copy will land here.";
 "Your original stays safe" = "Your original stays safe";

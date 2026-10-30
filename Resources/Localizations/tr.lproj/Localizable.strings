@@ -6,8 +6,10 @@
 "%@  Tools" = "%@  Araçlar";
 "%@ QR code found." = "%@ QR kodu bulundu.";
 "%@ QR codes found." = "%@ QR kodu bulundu.";
+"%@ exports" = "%@ çıktıları";
 "%@ files" = "%@ dosya";
 "%@ files, ready to go." = "%@ dosya hazır.";
+"%@ input" = "%@ girdisi";
 "%@ is enabled" = "%@ izni açık";
 "%@ items" = "%@ öğe";
 "%@ photos" = "%@ fotoğraf";
@@ -21,8 +23,10 @@
 "%lld  Tools" = "%lld  Araçlar";
 "%lld QR code found." = "%lld QR kodu bulundu.";
 "%lld QR codes found." = "%lld QR kodu bulundu.";
+"%lld exports" = "%lld çıktıları";
 "%lld files" = "%lld dosya";
 "%lld files, ready to go." = "%lld dosya hazır.";
+"%lld input" = "%lld girdisi";
 "%lld is enabled" = "%lld izni açık";
 "%lld items" = "%lld öğe";
 "%lld photos" = "%lld fotoğraf";
@@ -258,6 +262,7 @@
 "BORDER" = "KENARLIK";
 "BOTTOM" = "ALT";
 "BRIGHTNESS" = "PARLAKLIK";
+"BRING THIS FORMAT IN, THEN CHOOSE ITS NEXT FORM." = "BU BİÇİMİ İÇERİ AL, SONRA YENİ BİÇİMİNİ SEÇ.";
 "BUILT FOR YOUR FILES. MADE FOR YOUR MAC." = "DOSYALARIN İÇİN GELİŞTİRİLDİ. MAC'İN İÇİN TASARLANDI.";
 "Back" = "Geri";
 "Background" = "Arka plan";
@@ -277,6 +282,7 @@
 "Border" = "Kenarlık";
 "Bottom" = "Alt";
 "Brightness" = "Parlaklık";
+"Bring this format in, then choose its next form." = "Bu biçimi içeri al, sonra yeni biçimini seç.";
 "Built for your files. Made for your Mac." = "Dosyaların için geliştirildi. Mac'in için tasarlandı.";
 "CALLOUT" = "AÇIKLAMA";
 "CANCEL" = "İPTAL";
@@ -2265,6 +2271,8 @@
 "Your files, a little sweeter." = "Dosyalarına küçük bir dokunuş.";
 "Your files. Their next form." = "Dosyalarının yeni hâli.";
 "Your go-to exports." = "Sık kullandığın çıktı ayarları.";
+"Your go-to settings whenever you save a %@ file." = "Bir %@ dosyası kaydettiğinde kullandığın ayarlar.";
+"Your go-to settings whenever you save a %lld file." = "Bir %lld dosyası kaydettiğinde kullandığın ayarlar.";
 "Your kind of flow." = "Senin tarzın, senin akışın.";
 "Your next fresh copy will land here." = "Bir sonraki yeni kopyan burada görünecek.";
 "Your original stays safe" = "Orijinal dosyan güvende";
