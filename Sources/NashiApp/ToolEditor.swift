@@ -765,7 +765,7 @@ struct ToolEditor:View {
         guard options.start.isFinite,end.isFinite,options.start>=0,end>options.start,end<=duration else {
             previewError="Choose a valid start and end within the file’s duration.";return
         }
-        seek(options.start);playingRange=true;player?.play()
+        previewError=nil;seek(options.start);playingRange=true;player?.play()
     }
     func updatePlayhead(_ time:Double) {
         guard time.isFinite,!seeking else { return }
