@@ -2185,6 +2185,8 @@
 "VISUALIZATION" = "VISUALIZATION";
 "Value" = "Value";
 "Verifying update signature…" = "Verifying update signature…";
+"Version %@" = "Version %@";
+"Version %lld" = "Version %lld";
 "Vibrance" = "Vibrance";
 "Video" = "Video";
 "Video Compression" = "Video Compression";

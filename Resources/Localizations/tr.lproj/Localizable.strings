@@ -2185,6 +2185,8 @@
 "VISUALIZATION" = "GÖRSELLEŞTİRME";
 "Value" = "Değer";
 "Verifying update signature…" = "Güncelleme imzası doğrulanıyor…";
+"Version %@" = "Sürüm %@";
+"Version %lld" = "Sürüm %lld";
 "Vibrance" = "Canlılık";
 "Video" = "Video";
 "Video Compression" = "Video Sıkıştırma";
