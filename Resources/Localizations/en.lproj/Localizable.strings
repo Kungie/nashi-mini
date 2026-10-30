@@ -316,6 +316,7 @@
 "CHOOSE A TARGET OF AT LEAST 2 KB." = "CHOOSE A TARGET OF AT LEAST 2 KB.";
 "CHOOSE A VALID RANGE FIRST." = "CHOOSE A VALID RANGE FIRST.";
 "CHOOSE A VALID RANGE." = "CHOOSE A VALID RANGE.";
+"CHOOSE A VALID START AND END WITHIN THE FILE’S DURATION." = "CHOOSE A VALID START AND END WITHIN THE FILE’S DURATION.";
 "CHOOSE A VALID TIME RANGE." = "CHOOSE A VALID TIME RANGE.";
 "CHOOSE AN EXISTING MEDIA FILE." = "CHOOSE AN EXISTING MEDIA FILE.";
 "CHOOSE AN IMAGE." = "CHOOSE AN IMAGE.";
@@ -482,6 +483,7 @@
 "Choose a target of at least 2 KB." = "Choose a target of at least 2 KB.";
 "Choose a valid range first." = "Choose a valid range first.";
 "Choose a valid range." = "Choose a valid range.";
+"Choose a valid start and end within the file’s duration." = "Choose a valid start and end within the file’s duration.";
 "Choose a valid time range." = "Choose a valid time range.";
 "Choose an Instagram photo post link." = "Choose an Instagram photo post link.";
 "Choose an existing media file." = "Choose an existing media file.";

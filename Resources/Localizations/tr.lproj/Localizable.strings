@@ -316,6 +316,7 @@
 "CHOOSE A TARGET OF AT LEAST 2 KB." = "EN AZ 2 KB'LIK BİR HEDEF SEÇ.";
 "CHOOSE A VALID RANGE FIRST." = "ÖNCE GEÇERLİ BİR ARALIK SEÇ.";
 "CHOOSE A VALID RANGE." = "GEÇERLİ BİR ARALIK SEÇ.";
+"CHOOSE A VALID START AND END WITHIN THE FILE’S DURATION." = "DOSYANIN SÜRESİ İÇİNDE GEÇERLİ BİR BAŞLANGIÇ VE BİTİŞ SEÇ.";
 "CHOOSE A VALID TIME RANGE." = "GEÇERLİ BİR ZAMAN ARALIĞI SEÇ.";
 "CHOOSE AN EXISTING MEDIA FILE." = "VAR OLAN BİR MEDYA DOSYASI SEÇ.";
 "CHOOSE AN IMAGE." = "BİR GÖRSEL SEÇ.";
@@ -482,6 +483,7 @@
 "Choose a target of at least 2 KB." = "En az 2 KB'lık bir hedef seç.";
 "Choose a valid range first." = "Önce geçerli bir aralık seç.";
 "Choose a valid range." = "Geçerli bir aralık seç.";
+"Choose a valid start and end within the file’s duration." = "Dosyanın süresi içinde geçerli bir başlangıç ve bitiş seç.";
 "Choose a valid time range." = "Geçerli bir zaman aralığı seç.";
 "Choose an Instagram photo post link." = "Bir Instagram fotoğraf gönderisi bağlantısı seç.";
 "Choose an existing media file." = "Var olan bir medya dosyası seç.";
