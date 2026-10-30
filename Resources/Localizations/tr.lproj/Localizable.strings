@@ -1409,6 +1409,7 @@
 "PREPARING MOVE…" = "TAŞIMA HAZIRLANIYOR…";
 "PREPARING PREVIEW…" = "ÖNİZLEME HAZIRLANIYOR…";
 "PREPARING PROCESSED PREVIEW…" = "İŞLENMİŞ ÖNİZLEME HAZIRLANIYOR…";
+"PREPARING YOUR FILE…" = "DOSYAN HAZIRLANIYOR…";
 "PREPARING…" = "HAZIRLANIYOR…";
 "PRESERVE METADATA" = "META VERİLERİ KORU";
 "PRESERVE ORIGINAL PAGES" = "ORİJİNAL SAYFALARI KORU";
@@ -1469,6 +1470,7 @@
 "Preparing move…" = "Taşıma hazırlanıyor…";
 "Preparing preview…" = "Önizleme hazırlanıyor…";
 "Preparing processed preview…" = "İşlenmiş önizleme hazırlanıyor…";
+"Preparing your file…" = "Dosyan hazırlanıyor…";
 "Preparing…" = "Hazırlanıyor…";
 "Preserve metadata" = "Meta verileri koru";
 "Preserve original pages" = "Orijinal sayfaları koru";
@@ -1504,6 +1506,7 @@
 "Quit Nashi" = "Nashi'den Çık";
 "READ QR CODES" = "QR KODLARINI OKU";
 "READ QR CODES · NASHI" = "QR KODLARINI OKU · NASHI";
+"READING WAVEFORM…" = "DALGA BİÇİMİ OKUNUYOR…";
 "READY" = "HAZIR";
 "READY FOR ANOTHER ROUND." = "YENİDEN KULLANIMA HAZIR.";
 "READY ON YOUR MAC" = "MAC'İNDE HAZIR";
@@ -1565,6 +1568,7 @@
 "Read QR Codes" = "QR Kodlarını Oku";
 "Read QR Codes · Nashi" = "QR Kodlarını Oku · Nashi";
 "Read QR codes" = "QR kodlarını oku";
+"Reading waveform…" = "Dalga biçimi okunuyor…";
 "Ready" = "Hazır";
 "Ready for another round." = "Yeniden kullanıma hazır.";
 "Ready on your Mac" = "Mac'inde hazır";
