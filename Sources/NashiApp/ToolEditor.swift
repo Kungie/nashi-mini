@@ -318,7 +318,7 @@ struct ToolEditor:View {
     var dimensionFields:some View { HStack { number("W",value:$width);number("H",value:$height);Text("px").foregroundStyle(.secondary) } }
     var imageControls:some View {
         VStack(alignment:.leading,spacing:12) {
-            HStack { Toggle("Show Original",isOn:$showOriginal).toggleStyle(.button);Spacer();Button("−") { previewZoom=max(0.25,previewZoom/1.25) };Text("\(Int(previewZoom*100))%").font(.caption.monospacedDigit());Button("+") { previewZoom=min(4,previewZoom*1.25) };Button("Fit") { previewZoom=1 } }
+            HStack { Toggle("Show Original",isOn:$showOriginal).toggleStyle(.button);Spacer();Button("−") { previewZoom=max(0.25,previewZoom/1.25) };Text(Int(previewZoom*100),format:.percent).font(.caption.monospacedDigit());Button("+") { previewZoom=min(4,previewZoom*1.25) };Button("Fit") { previewZoom=1 } }
             HStack { Button("Rotate Left") { options.rotation-=90;swap(&width,&height) };Button("Rotate Right") { options.rotation+=90;swap(&width,&height) };Toggle("Flip",isOn:$options.flipHorizontal) }
             dimensionFields
             Group {

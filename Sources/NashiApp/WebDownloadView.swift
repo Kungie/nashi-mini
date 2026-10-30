@@ -166,7 +166,7 @@ struct WebDownloadView:View {
                         Spacer();Button("Change…") { model.chooseDestination() }.disabled(model.downloading)
                     }.padding(15).nashiCard()
                     if model.downloading {
-                        VStack(alignment:.leading,spacing:9) { HStack { LText(state.progressLabel).font(.caption);Spacer();if state.progressIsDeterminate { Text("\(Int(state.progress*100))%").font(.caption.monospacedDigit()) } };JobProgressBar(state:state) }
+                        VStack(alignment:.leading,spacing:9) { HStack { LText(state.progressLabel).font(.caption);Spacer();if state.progressIsDeterminate { Text(Int(state.progress*100),format:.percent).font(.caption.monospacedDigit()) } };JobProgressBar(state:state) }
                     }
                     if !model.completed.isEmpty { Label("Ready on your Mac",systemImage:"checkmark.circle.fill").foregroundStyle(NashiPalette.forest);Text(model.completed.map(\.lastPathComponent).joined(separator:"\n")).font(.caption).textSelection(.enabled) }
                     if let error=model.error { Label(error,systemImage:"exclamationmark.circle").font(.callout).foregroundStyle(.orange).fixedSize(horizontal:false,vertical:true) }
