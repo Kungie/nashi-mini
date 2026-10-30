@@ -51,6 +51,14 @@ final class DocumentAuditRegressionTests: XCTestCase {
         XCTAssertEqual(DocumentText.decodeEntities("&eacute; &amp;"), "&eacute; &")
     }
 
+    func testWebVTTNumericCharacterReferencesFollowHTMLRules() throws {
+        let source = "WEBVTT\n\n00:00:01.000 --> 00:00:02.000\nIt&#146;s 9&#150;5 &#X41; a&#0;b&#xD800;c&#99999999999;d\n\n"
+        let input = try fixture("Numeric.vtt", data: Data(source.utf8))
+        XCTAssertEqual(try SubtitleCodec.convert(input, to: "srt", token: .init()), "1\n00:00:01,000 --> 00:00:02,000\nIt’s 9–5 A a\u{FFFD}b\u{FFFD}c\u{FFFD}d\n")
+        XCTAssertEqual(try SubtitleCodec.convert(input, to: "txt", token: .init()), "It’s 9–5 A a\u{FFFD}b\u{FFFD}c\u{FFFD}d\n")
+        XCTAssertEqual(DocumentText.decodeEntities("&#146;&#X41;"), "\u{92}&#X41;")
+    }
+
     func testWebVTTDirectionMarksSurviveTextExport() throws {
         let source = "WEBVTT\n\n00:00:01.000 --> 00:00:02.000\n<v Bob>&rlm;שלום</v> A&lrm;B &amp;lrm;\n\n"
         let input = try fixture("Marks.vtt", data: Data(source.utf8))
