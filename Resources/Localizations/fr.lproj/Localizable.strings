@@ -1718,6 +1718,8 @@
 "SMALL · 1280 PX" = "PETIT · 1280 PX";
 "SMALL · 1280 PX LONGEST EDGE" = "PETIT · 1280 PX SUR LE PLUS GRAND CÔTÉ";
 "SMALLER FILE" = "FICHIER PLUS LÉGER";
+"SMALLER FILES WITH LESS QUALITY LOSS." = "DES FICHIERS PLUS LÉGERS AVEC MOINS DE PERTE DE QUALITÉ.";
+"SMALLER FILES WITH STRONGER COMPRESSION." = "DES FICHIERS PLUS LÉGERS AVEC UNE COMPRESSION PLUS FORTE.";
 "SMALLEST" = "LE PLUS PETIT";
 "SOLID" = "PLEIN";
 "SOUND AND HAPTIC FEEDBACK" = "RETOUR SONORE ET HAPTIQUE";
@@ -1856,6 +1858,8 @@
 "Small · 1280 px" = "Petit · 1280 px";
 "Small · 1280 px longest edge" = "Petit · 1280 px sur le plus grand côté";
 "Smaller File" = "Fichier plus léger";
+"Smaller files with less quality loss." = "Des fichiers plus légers avec moins de perte de qualité.";
+"Smaller files with stronger compression." = "Des fichiers plus légers avec une compression plus forte.";
 "Smallest" = "Le plus petit";
 "Solid" = "Plein";
 "Sound and haptic feedback" = "Retour sonore et haptique";

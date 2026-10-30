@@ -320,6 +320,8 @@
   "Video compression": "Compression vidéo",
   "Compression Settings": "Réglages de compression",
   "Compression preset": "Préréglage de compression",
+  "Smaller files with less quality loss.": "Des fichiers plus légers avec moins de perte de qualité.",
+  "Smaller files with stronger compression.": "Des fichiers plus légers avec une compression plus forte.",
   "Compress to target file size": "Compresser jusqu’à une taille de fichier cible",
   "Preset": "Préréglage",
   "Target": "Cible",
