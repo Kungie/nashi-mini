@@ -33,6 +33,7 @@ struct JobRecord:Codable,Identifiable {
     func navigateLibrary(_ direction:Int) {let rows=filteredHistory;guard !rows.isEmpty else{return};let old=rows.firstIndex{$0.id==selectedHistoryID};selectedHistoryID=rows[min(rows.count-1,max(0,(old ?? (direction>0 ? -1:1))+direction))].id}
     func pasteContent(_ pasteboard:NSPasteboard = .general) {
         guard !working else{return}
+        activeTool=nil;activeInputs=[]
         do {let result=try ClipboardImport.read(pasteboard)
             if let link=result.link {onWebDownload?(link,.video);return}
             inputs=result.urls;outputs=[];error=nil;libraryVisible=false
@@ -127,6 +128,8 @@ struct JobRecord:Codable,Identifiable {
     func perform(_ action:FileAction,urls:[URL]?=nil) {
         let urls=urls ?? inputs
         guard !urls.isEmpty else { return }
+        // Not a tool job: its error must not show in the editor of the last one.
+        if !working { activeTool=nil;activeInputs=[] }
         switch action {
         case .copyPath:
             NSPasteboard.general.clearContents()
