@@ -382,7 +382,7 @@ struct ToolEditor:View {
             slider("Padding",value:Binding(get:{Double(options.imageFrame?.padding ?? 160)},set:{var f=options.imageFrame ?? .init();f.padding=Int($0);options.imageFrame=f}),range:0...400,unit:"px")
             slider("Corners",value:frame(\.cornerRadius),range:0...100,unit:"px")
             slider("Shadow",value:frame(\.shadowRadius),range:0...80,unit:"px")
-            HStack { ForEach(["Auto","1:1","16:9","4:5"],id:\.self) { label in Button(label) { var f=options.imageFrame ?? .init();let a=label.split(separator:":").compactMap{Double($0)};f.aspectRatio=a.count==2 ? a[0]/a[1]:nil;options.imageFrame=f } } }
+            HStack { ForEach(["Auto","1:1","16:9","4:5"],id:\.self) { label in Button(LocalizedStringKey(label)) { var f=options.imageFrame ?? .init();let a=label.split(separator:":").compactMap{Double($0)};f.aspectRatio=a.count==2 ? a[0]/a[1]:nil;options.imageFrame=f } } }
         }
     }
     var collageControls:some View {
