@@ -311,6 +311,7 @@
 "CHOOSE A DESTINATION OUTSIDE THE FOLDER BEING MOVED." = "TAŞINAN KLASÖRÜN DIŞINDA BİR HEDEF SEÇ.";
 "CHOOSE A FILE TO PREVIEW." = "ÖNİZLEMEK İÇİN BİR DOSYA SEÇ.";
 "CHOOSE A FINISHED VIDEO INSTEAD OF A LIVE OR UPCOMING STREAM." = "CANLI VEYA HENÜZ BAŞLAMAMIŞ BİR YAYIN YERİNE TAMAMLANMIŞ BİR VİDEO SEÇ.";
+"CHOOSE A FOLDER" = "BİR KLASÖR SEÇ";
 "CHOOSE A HEX BACKGROUND COLOR, SUCH AS #FFFFFF OR #00FFFFFF." = "#FFFFFF VEYA #00FFFFFF GİBİ ONALTILIK BİR ARKA PLAN RENGİ SEÇ.";
 "CHOOSE A LARGER TARGET SIZE." = "DAHA BÜYÜK BİR HEDEF BOYUT SEÇ.";
 "CHOOSE A NONEMPTY IMAGE." = "BOŞ OLMAYAN BİR GÖRSEL SEÇ.";
@@ -484,6 +485,7 @@
 "Choose a destination outside the folder being moved." = "Taşınan klasörün dışında bir hedef seç.";
 "Choose a file to preview." = "Önizlemek için bir dosya seç.";
 "Choose a finished video instead of a live or upcoming stream." = "Canlı veya henüz başlamamış bir yayın yerine tamamlanmış bir video seç.";
+"Choose a folder" = "Bir klasör seç";
 "Choose a hex background color, such as #FFFFFF or #00FFFFFF." = "#FFFFFF veya #00FFFFFF gibi onaltılık bir arka plan rengi seç.";
 "Choose a larger target size." = "Daha büyük bir hedef boyut seç.";
 "Choose a nonempty image." = "Boş olmayan bir görsel seç.";
@@ -869,6 +871,7 @@
 "FLOAT BEHAVIOUR" = "YÜZEN PENCERE DAVRANIŞI";
 "FLOAT OPTIONS" = "FLOAT SEÇENEKLERİ";
 "FLOAT · 1 FILE" = "YÜZEN PENCERE · 1 DOSYA";
+"FOLDER ACCESS READY" = "KLASÖR ERİŞİMİ HAZIR";
 "FOLDERS" = "KLASÖRLER";
 "FONT" = "YAZI TİPİ";
 "FONT SIZE" = "YAZI BOYUTU";
@@ -939,6 +942,7 @@
 "Float · %@ files" = "Yüzen Pencere · %@ dosya";
 "Float · %lld files" = "Yüzen Pencere · %lld dosya";
 "Float · 1 file" = "Yüzen Pencere · 1 dosya";
+"Folder access ready" = "Klasör erişimi hazır";
 "Folder · %@" = "Klasör · %@";
 "Folder · %lld" = "Klasör · %lld";
 "Folders" = "Klasörler";

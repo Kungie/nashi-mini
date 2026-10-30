@@ -311,6 +311,7 @@
 "CHOOSE A DESTINATION OUTSIDE THE FOLDER BEING MOVED." = "CHOOSE A DESTINATION OUTSIDE THE FOLDER BEING MOVED.";
 "CHOOSE A FILE TO PREVIEW." = "CHOOSE A FILE TO PREVIEW.";
 "CHOOSE A FINISHED VIDEO INSTEAD OF A LIVE OR UPCOMING STREAM." = "CHOOSE A FINISHED VIDEO INSTEAD OF A LIVE OR UPCOMING STREAM.";
+"CHOOSE A FOLDER" = "CHOOSE A FOLDER";
 "CHOOSE A HEX BACKGROUND COLOR, SUCH AS #FFFFFF OR #00FFFFFF." = "CHOOSE A HEX BACKGROUND COLOR, SUCH AS #FFFFFF OR #00FFFFFF.";
 "CHOOSE A LARGER TARGET SIZE." = "CHOOSE A LARGER TARGET SIZE.";
 "CHOOSE A NONEMPTY IMAGE." = "CHOOSE A NONEMPTY IMAGE.";
@@ -484,6 +485,7 @@
 "Choose a destination outside the folder being moved." = "Choose a destination outside the folder being moved.";
 "Choose a file to preview." = "Choose a file to preview.";
 "Choose a finished video instead of a live or upcoming stream." = "Choose a finished video instead of a live or upcoming stream.";
+"Choose a folder" = "Choose a folder";
 "Choose a hex background color, such as #FFFFFF or #00FFFFFF." = "Choose a hex background color, such as #FFFFFF or #00FFFFFF.";
 "Choose a larger target size." = "Choose a larger target size.";
 "Choose a nonempty image." = "Choose a nonempty image.";
@@ -869,6 +871,7 @@
 "FLOAT BEHAVIOUR" = "FLOAT BEHAVIOUR";
 "FLOAT OPTIONS" = "FLOAT OPTIONS";
 "FLOAT · 1 FILE" = "FLOAT · 1 FILE";
+"FOLDER ACCESS READY" = "FOLDER ACCESS READY";
 "FOLDERS" = "FOLDERS";
 "FONT" = "FONT";
 "FONT SIZE" = "FONT SIZE";
@@ -939,6 +942,7 @@
 "Float · %@ files" = "Float · %@ files";
 "Float · %lld files" = "Float · %lld files";
 "Float · 1 file" = "Float · 1 file";
+"Folder access ready" = "Folder access ready";
 "Folder · %@" = "Folder · %@";
 "Folder · %lld" = "Folder · %lld";
 "Folders" = "Folders";

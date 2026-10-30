@@ -311,6 +311,7 @@
 "CHOOSE A DESTINATION OUTSIDE THE FOLDER BEING MOVED." = "CHOISISSEZ UNE DESTINATION EN DEHORS DU DOSSIER DÉPLACÉ.";
 "CHOOSE A FILE TO PREVIEW." = "CHOISISSEZ UN FICHIER À PRÉVISUALISER.";
 "CHOOSE A FINISHED VIDEO INSTEAD OF A LIVE OR UPCOMING STREAM." = "CHOISISSEZ UNE VIDÉO TERMINÉE PLUTÔT QU’UNE DIFFUSION EN DIRECT OU À VENIR.";
+"CHOOSE A FOLDER" = "CHOISIR UN DOSSIER";
 "CHOOSE A HEX BACKGROUND COLOR, SUCH AS #FFFFFF OR #00FFFFFF." = "CHOISISSEZ UNE COULEUR D’ARRIÈRE-PLAN HEXADÉCIMALE, COMME #FFFFFF OU #00FFFFFF.";
 "CHOOSE A LARGER TARGET SIZE." = "CHOISISSEZ UNE TAILLE CIBLE PLUS GRANDE.";
 "CHOOSE A NONEMPTY IMAGE." = "CHOISISSEZ UNE IMAGE NON VIDE.";
@@ -484,6 +485,7 @@
 "Choose a destination outside the folder being moved." = "Choisissez une destination en dehors du dossier déplacé.";
 "Choose a file to preview." = "Choisissez un fichier à prévisualiser.";
 "Choose a finished video instead of a live or upcoming stream." = "Choisissez une vidéo terminée plutôt qu’une diffusion en direct ou à venir.";
+"Choose a folder" = "Choisir un dossier";
 "Choose a hex background color, such as #FFFFFF or #00FFFFFF." = "Choisissez une couleur d’arrière-plan hexadécimale, comme #FFFFFF ou #00FFFFFF.";
 "Choose a larger target size." = "Choisissez une taille cible plus grande.";
 "Choose a nonempty image." = "Choisissez une image non vide.";
@@ -869,6 +871,7 @@
 "FLOAT BEHAVIOUR" = "COMPORTEMENT DE FLOAT";
 "FLOAT OPTIONS" = "OPTIONS DE FLOAT";
 "FLOAT · 1 FILE" = "FLOAT · 1 FICHIER";
+"FOLDER ACCESS READY" = "ACCÈS AU DOSSIER PRÊT";
 "FOLDERS" = "DOSSIERS";
 "FONT" = "POLICE";
 "FONT SIZE" = "TAILLE DE LA POLICE";
@@ -939,6 +942,7 @@
 "Float · %@ files" = "Float · %@ fichiers";
 "Float · %lld files" = "Float · %lld fichiers";
 "Float · 1 file" = "Float · 1 fichier";
+"Folder access ready" = "Accès au dossier prêt";
 "Folder · %@" = "Dossier · %@";
 "Folder · %lld" = "Dossier · %lld";
 "Folders" = "Dossiers";
