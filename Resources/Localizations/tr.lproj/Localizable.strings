@@ -1052,6 +1052,7 @@
 "KEEP THE ORIGINAL PAGES" = "ORİJİNAL SAYFALARI KORU";
 "KEEP THEM TOGETHER, OR GIVE EACH ONE A FRESH START." = "İSTERSEN BİRLİKTE İŞLE, İSTERSEN TEK TEK.";
 "KEEP THINGS\nMOVING." = "AKIŞINI\nKORU.";
+"KEEPS THE LOOK AND DIMENSIONS OF EACH PAGE. BEST FOR VISUAL LAYOUTS." = "HER SAYFANIN GÖRÜNÜMÜNÜ VE BOYUTLARINI KORUR. GÖRSEL DÜZENLER İÇİN EN İYİSİ.";
 "Keep at least one clip." = "En az bir klip bırak.";
 "Keep at least one page." = "En az bir sayfa bırak.";
 "Keep dragging\nDrop a file or link" = "Sürüklemeye devam et\nDosya veya bağlantı bırak";
@@ -1063,6 +1064,7 @@
 "Keep the original pages" = "Orijinal sayfaları koru";
 "Keep them together, or give each one a fresh start." = "İstersen birlikte işle, istersen tek tek.";
 "Keep things\nmoving." = "Akışını\nkoru.";
+"Keeps the look and dimensions of each page. Best for visual layouts." = "Her sayfanın görünümünü ve boyutlarını korur. Görsel düzenler için en iyisi.";
 "LANDSCAPE" = "YATAY";
 "LANDSCAPE · 16:9" = "YATAY · 16:9";
 "LANGUAGE" = "DİL";
@@ -1898,6 +1900,7 @@
 "TERMINAL" = "TERMINAL";
 "TERMINAL APP" = "TERMINAL UYGULAMASI";
 "TEXT" = "METİN";
+"TEXT ADAPTS TO THE READER’S SCREEN AND FONT SIZE. BEST FOR READING." = "METİN, OKUYUCUNUN EKRANINA VE YAZI BOYUTUNA UYUM SAĞLAR. OKUMAK İÇİN EN İYİSİ.";
 "TEXT OR CALLOUT" = "METİN VEYA AÇIKLAMA";
 "TEXT SIZE" = "METİN BOYUTU";
 "TEXTURE" = "DOKU";
@@ -1983,6 +1986,7 @@
 "Terminal" = "Terminal";
 "Terminal app" = "Terminal uygulaması";
 "Text" = "Metin";
+"Text adapts to the reader’s screen and font size. Best for reading." = "Metin, okuyucunun ekranına ve yazı boyutuna uyum sağlar. Okumak için en iyisi.";
 "Text or callout" = "Metin veya açıklama";
 "Text size" = "Metin boyutu";
 "Texture" = "Doku";
