@@ -88,4 +88,13 @@ final class DocumentAuditRegressionTests: XCTestCase {
         let result = try SubtitleCodec.convert(input, to: "srt", token: .init())
         XCTAssertTrue(result.contains("2562047788:00:00,001 --> 2562047788:00:00,999"))
     }
+
+    func testSRTTextThatWebVTTReservesIsEscapedInVTT() throws {
+        let source = "1\n00:00:01,000 --> 00:00:02,000\n<i>Keep</i> <font color=\"#FF0000\">x</font> < y, I <3 you\nNext --> stop\n\n"
+        let input = try fixture("Reserved.srt", data: Data(source.utf8))
+        let vtt = try SubtitleCodec.convert(input, to: "vtt", token: .init())
+        XCTAssertEqual(vtt, "WEBVTT\n\n00:00:01.000 --> 00:00:02.000\n<i>Keep</i> <font color=\"#FF0000\">x</font> &lt; y, I &lt;3 you\nNext --&gt; stop\n")
+        let back = try fixture("Reserved.vtt", data: Data(vtt.utf8))
+        XCTAssertTrue(try SubtitleCodec.convert(back, to: "srt", token: .init()).hasSuffix("< y, I <3 you\nNext --> stop\n"))
+    }
 }
