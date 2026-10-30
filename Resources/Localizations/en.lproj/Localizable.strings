@@ -1448,6 +1448,7 @@
 "PREPARING MOVE…" = "PREPARING MOVE…";
 "PREPARING PREVIEW…" = "PREPARING PREVIEW…";
 "PREPARING PROCESSED PREVIEW…" = "PREPARING PROCESSED PREVIEW…";
+"PREPARING YOUR FILE…" = "PREPARING YOUR FILE…";
 "PREPARING…" = "PREPARING…";
 "PRESERVE METADATA" = "PRESERVE METADATA";
 "PRESERVE ORIGINAL PAGES" = "PRESERVE ORIGINAL PAGES";
@@ -1511,6 +1512,7 @@
 "Preparing move…" = "Preparing move…";
 "Preparing preview…" = "Preparing preview…";
 "Preparing processed preview…" = "Preparing processed preview…";
+"Preparing your file…" = "Preparing your file…";
 "Preparing…" = "Preparing…";
 "Preserve metadata" = "Preserve metadata";
 "Preserve original pages" = "Preserve original pages";
@@ -1546,6 +1548,7 @@
 "Quit Nashi" = "Quit Nashi";
 "READ QR CODES" = "READ QR CODES";
 "READ QR CODES · NASHI" = "READ QR CODES · NASHI";
+"READING WAVEFORM…" = "READING WAVEFORM…";
 "READY" = "READY";
 "READY FOR ANOTHER ROUND." = "READY FOR ANOTHER ROUND.";
 "READY ON YOUR MAC" = "READY ON YOUR MAC";
@@ -1607,6 +1610,7 @@
 "Read QR Codes" = "Read QR Codes";
 "Read QR Codes · Nashi" = "Read QR Codes · Nashi";
 "Read QR codes" = "Read QR codes";
+"Reading waveform…" = "Reading waveform…";
 "Ready" = "Ready";
 "Ready for another round." = "Ready for another round.";
 "Ready on your Mac" = "Ready on your Mac";
