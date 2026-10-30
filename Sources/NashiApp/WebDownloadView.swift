@@ -169,7 +169,7 @@ struct WebDownloadView:View {
                         VStack(alignment:.leading,spacing:9) { HStack { LText(state.progressLabel).font(.caption);Spacer();if state.progressIsDeterminate { Text(Int(state.progress*100),format:.percent).font(.caption.monospacedDigit()) } };JobProgressBar(state:state) }
                     }
                     if !model.completed.isEmpty { Label("Ready on your Mac",systemImage:"checkmark.circle.fill").foregroundStyle(NashiPalette.forest);Text(model.completed.map(\.lastPathComponent).joined(separator:"\n")).font(.caption).textSelection(.enabled) }
-                    if let error=model.error { Label(error,systemImage:"exclamationmark.circle").font(.callout).foregroundStyle(.orange).fixedSize(horizontal:false,vertical:true) }
+                    if let error=model.error { Label { LText(error) } icon:{ Image(systemName:"exclamationmark.circle") }.font(.callout).foregroundStyle(.orange).fixedSize(horizontal:false,vertical:true) }
                     if state.working,!model.downloading { Text("Another task is running. Your link is ready when it finishes.").font(.caption).foregroundStyle(.secondary) }
                     VStack(alignment:.leading,spacing:7) {
                         LText(model.shortcutAvailable ? "Copy a link → ⌃⇧D, or drag it with ⌘.":"Copy a link, then choose Download Link from the Nashi menu.").font(.caption)

@@ -412,6 +412,7 @@
 "COPY A LINK → ⌃⇧D, OR DRAG IT WITH ⌘." = "BAĞLANTIYI KOPYALA → ⌃⇧D VEYA ⌘ İLE SÜRÜKLE.";
 "COPY A LINK, THEN CHOOSE DOWNLOAD LINK FROM THE NASHI MENU." = "BİR BAĞLANTI KOPYALA, SONRA NASHI MENÜSÜNDEN BAĞLANTIDAN İNDİR'İ SEÇ.";
 "COPY A PUBLIC MEDIA LINK FIRST." = "ÖNCE HERKESE AÇIK BİR MEDYA BAĞLANTISI KOPYALA.";
+"COPY A VIDEO SHARE LINK OR AN IMAGE ADDRESS FIRST." = "ÖNCE BİR VİDEO PAYLAŞIM BAĞLANTISI VEYA GÖRSEL ADRESİ KOPYALA.";
 "COPY PATH" = "YOLU KOPYALA";
 "CORNER RADIUS" = "KÖŞE YUVARLAKLIĞI";
 "CORNERS" = "KÖŞELER";
@@ -587,6 +588,7 @@
 "Copy a link → ⌃⇧D, or drag it with ⌘." = "Bağlantıyı kopyala → ⌃⇧D veya ⌘ ile sürükle.";
 "Copy a link, then choose Download Link from the Nashi menu." = "Bir bağlantı kopyala, sonra Nashi menüsünden Bağlantıdan İndir'i seç.";
 "Copy a public media link first." = "Önce herkese açık bir medya bağlantısı kopyala.";
+"Copy a video share link or an image address first." = "Önce bir video paylaşım bağlantısı veya görsel adresi kopyala.";
 "Copy path" = "Yolu kopyala";
 "Corner radius" = "Köşe yuvarlaklığı";
 "Corners" = "Köşeler";
@@ -1390,6 +1392,7 @@
 "PASTE A PUBLIC VIDEO, IMAGE OR AUDIO PAGE LINK" = "HERKESE AÇIK VİDEO, GÖRSEL VEYA SES BAĞLANTISI YAPIŞTIR";
 "PASTE A VIDEO SHARE LINK OR IMAGE ADDRESS" = "VİDEO PAYLAŞIM BAĞLANTISI VEYA GÖRSEL ADRESİ YAPIŞTIR";
 "PASTE LINK" = "BAĞLANTI YAPIŞTIR";
+"PASTE ONE COMPLETE HTTP:// OR HTTPS:// MEDIA LINK." = "BİR HTTP:// VEYA HTTPS:// MEDYA BAĞLANTISININ TAMAMINI YAPIŞTIR.";
 "PASTE ONE COMPLETE PUBLIC MEDIA LINK." = "HERKESE AÇIK BİR MEDYA BAĞLANTISININ TAMAMINI YAPIŞTIR.";
 "PASTED IMAGE" = "YAPIŞTIRILAN GÖRSEL";
 "PASTED TEXT" = "YAPIŞTIRILAN METİN";
@@ -1463,6 +1466,7 @@
 "Paste a public video, image or audio page link" = "Herkese açık video, görsel veya ses bağlantısı yapıştır";
 "Paste a video share link or image address" = "Video paylaşım bağlantısı veya görsel adresi yapıştır";
 "Paste link" = "Bağlantı yapıştır";
+"Paste one complete http:// or https:// media link." = "Bir http:// veya https:// medya bağlantısının tamamını yapıştır.";
 "Paste one complete public media link." = "Herkese açık bir medya bağlantısının tamamını yapıştır.";
 "Pasted image" = "Yapıştırılan görsel";
 "Pasted text" = "Yapıştırılan metin";

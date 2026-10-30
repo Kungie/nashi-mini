@@ -412,6 +412,7 @@
 "COPY A LINK → ⌃⇧D, OR DRAG IT WITH ⌘." = "COPIEZ UN LIEN → ⌃⇧D, OU FAITES-LE GLISSER AVEC ⌘.";
 "COPY A LINK, THEN CHOOSE DOWNLOAD LINK FROM THE NASHI MENU." = "COPIEZ UN LIEN, PUIS CHOISISSEZ TÉLÉCHARGER LE LIEN DANS LE MENU NASHI.";
 "COPY A PUBLIC MEDIA LINK FIRST." = "COPIEZ D’ABORD UN LIEN MÉDIA PUBLIC.";
+"COPY A VIDEO SHARE LINK OR AN IMAGE ADDRESS FIRST." = "COPIEZ D’ABORD LE LIEN DE PARTAGE D’UNE VIDÉO OU L’ADRESSE D’UNE IMAGE.";
 "COPY PATH" = "COPIER LE CHEMIN";
 "CORNER RADIUS" = "RAYON DES COINS";
 "CORNERS" = "COINS";
@@ -587,6 +588,7 @@
 "Copy a link → ⌃⇧D, or drag it with ⌘." = "Copiez un lien → ⌃⇧D, ou faites-le glisser avec ⌘.";
 "Copy a link, then choose Download Link from the Nashi menu." = "Copiez un lien, puis choisissez Télécharger le lien dans le menu Nashi.";
 "Copy a public media link first." = "Copiez d’abord un lien média public.";
+"Copy a video share link or an image address first." = "Copiez d’abord le lien de partage d’une vidéo ou l’adresse d’une image.";
 "Copy path" = "Copier le chemin";
 "Corner radius" = "Rayon des coins";
 "Corners" = "Coins";
@@ -1390,6 +1392,7 @@
 "PASTE A PUBLIC VIDEO, IMAGE OR AUDIO PAGE LINK" = "COLLEZ LE LIEN D’UNE PAGE PUBLIQUE DE VIDÉO, D’IMAGE OU D’AUDIO";
 "PASTE A VIDEO SHARE LINK OR IMAGE ADDRESS" = "COLLEZ LE LIEN DE PARTAGE D’UNE VIDÉO OU L’ADRESSE D’UNE IMAGE";
 "PASTE LINK" = "COLLER LE LIEN";
+"PASTE ONE COMPLETE HTTP:// OR HTTPS:// MEDIA LINK." = "COLLEZ UN LIEN MÉDIA HTTP:// OU HTTPS:// COMPLET.";
 "PASTE ONE COMPLETE PUBLIC MEDIA LINK." = "COLLEZ UN LIEN MÉDIA PUBLIC COMPLET.";
 "PASTED IMAGE" = "IMAGE COLLÉE";
 "PASTED TEXT" = "TEXTE COLLÉ";
@@ -1463,6 +1466,7 @@
 "Paste a public video, image or audio page link" = "Collez le lien d’une page publique de vidéo, d’image ou d’audio";
 "Paste a video share link or image address" = "Collez le lien de partage d’une vidéo ou l’adresse d’une image";
 "Paste link" = "Coller le lien";
+"Paste one complete http:// or https:// media link." = "Collez un lien média http:// ou https:// complet.";
 "Paste one complete public media link." = "Collez un lien média public complet.";
 "Pasted image" = "Image collée";
 "Pasted text" = "Texte collé";
