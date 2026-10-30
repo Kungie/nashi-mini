@@ -1726,6 +1726,8 @@
 "SMALL · 1280 PX" = "SMALL · 1280 PX";
 "SMALL · 1280 PX LONGEST EDGE" = "SMALL · 1280 PX LONGEST EDGE";
 "SMALLER FILE" = "SMALLER FILE";
+"SMALLER FILES WITH LESS QUALITY LOSS." = "SMALLER FILES WITH LESS QUALITY LOSS.";
+"SMALLER FILES WITH STRONGER COMPRESSION." = "SMALLER FILES WITH STRONGER COMPRESSION.";
 "SMALLEST" = "SMALLEST";
 "SOLID" = "SOLID";
 "SOUND AND HAPTIC FEEDBACK" = "SOUND AND HAPTIC FEEDBACK";
@@ -1864,6 +1866,8 @@
 "Small · 1280 px" = "Small · 1280 px";
 "Small · 1280 px longest edge" = "Small · 1280 px longest edge";
 "Smaller File" = "Smaller File";
+"Smaller files with less quality loss." = "Smaller files with less quality loss.";
+"Smaller files with stronger compression." = "Smaller files with stronger compression.";
 "Smallest" = "Smallest";
 "Solid" = "Solid";
 "Sound and haptic feedback" = "Sound and haptic feedback";

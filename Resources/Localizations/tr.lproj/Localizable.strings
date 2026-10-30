@@ -1726,6 +1726,8 @@
 "SMALL · 1280 PX" = "KÜÇÜK · 1280 PX";
 "SMALL · 1280 PX LONGEST EDGE" = "KÜÇÜK · UZUN KENAR 1280 PX";
 "SMALLER FILE" = "DAHA KÜÇÜK DOSYA";
+"SMALLER FILES WITH LESS QUALITY LOSS." = "DAHA AZ KALİTE KAYBIYLA DAHA KÜÇÜK DOSYALAR.";
+"SMALLER FILES WITH STRONGER COMPRESSION." = "DAHA GÜÇLÜ SIKIŞTIRMAYLA DAHA KÜÇÜK DOSYALAR.";
 "SMALLEST" = "EN KÜÇÜK";
 "SOLID" = "DÜZ";
 "SOUND AND HAPTIC FEEDBACK" = "SES VE DOKUNSAL GERİ BİLDİRİM";
@@ -1864,6 +1866,8 @@
 "Small · 1280 px" = "Küçük · 1280 px";
 "Small · 1280 px longest edge" = "Küçük · uzun kenar 1280 px";
 "Smaller File" = "Daha Küçük Dosya";
+"Smaller files with less quality loss." = "Daha az kalite kaybıyla daha küçük dosyalar.";
+"Smaller files with stronger compression." = "Daha güçlü sıkıştırmayla daha küçük dosyalar.";
 "Smallest" = "En küçük";
 "Solid" = "Düz";
 "Sound and haptic feedback" = "Ses ve dokunsal geri bildirim";

@@ -324,6 +324,8 @@
   "Video compression": "Video sıkıştırma",
   "Compression Settings": "Sıkıştırma Ayarları",
   "Compression preset": "Sıkıştırma ön ayarı",
+  "Smaller files with less quality loss.": "Daha az kalite kaybıyla daha küçük dosyalar.",
+  "Smaller files with stronger compression.": "Daha güçlü sıkıştırmayla daha küçük dosyalar.",
   "Compress to target file size": "Hedef dosya boyutuna sıkıştır",
   "Preset": "Ön ayar",
   "Target": "Hedef",
