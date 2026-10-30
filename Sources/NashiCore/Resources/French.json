@@ -372,6 +372,8 @@
   "Reflowable": "Texte adaptable",
   "Reflowable text": "Texte adaptable",
   "Flexible, reflowable text": "Texte souple et adaptable",
+  "Text adapts to the reader’s screen and font size. Best for reading.": "Le texte s’adapte à l’écran et à la taille de police du lecteur. Idéal pour la lecture.",
+  "Keeps the look and dimensions of each page. Best for visual layouts.": "Conserve l’apparence et les dimensions de chaque page. Idéal pour les mises en page visuelles.",
   "Fixed pages": "Pages fixes",
   "Input-only format.": "Format d’entrée uniquement.",
   "Output-only format.": "Format de sortie uniquement.",

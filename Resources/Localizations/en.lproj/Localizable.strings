@@ -1064,6 +1064,7 @@
 "KEEP THE ORIGINAL PAGES" = "KEEP THE ORIGINAL PAGES";
 "KEEP THEM TOGETHER, OR GIVE EACH ONE A FRESH START." = "KEEP THEM TOGETHER, OR GIVE EACH ONE A FRESH START.";
 "KEEP THINGS\nMOVING." = "KEEP THINGS\nMOVING.";
+"KEEPS THE LOOK AND DIMENSIONS OF EACH PAGE. BEST FOR VISUAL LAYOUTS." = "KEEPS THE LOOK AND DIMENSIONS OF EACH PAGE. BEST FOR VISUAL LAYOUTS.";
 "Keep at least one clip." = "Keep at least one clip.";
 "Keep at least one page." = "Keep at least one page.";
 "Keep dragging\nDrop a file or link" = "Keep dragging\nDrop a file or link";
@@ -1075,6 +1076,7 @@
 "Keep the original pages" = "Keep the original pages";
 "Keep them together, or give each one a fresh start." = "Keep them together, or give each one a fresh start.";
 "Keep things\nmoving." = "Keep things\nmoving.";
+"Keeps the look and dimensions of each page. Best for visual layouts." = "Keeps the look and dimensions of each page. Best for visual layouts.";
 "LANDSCAPE" = "LANDSCAPE";
 "LANDSCAPE · 16:9" = "LANDSCAPE · 16:9";
 "LANGUAGE" = "LANGUAGE";
@@ -1924,6 +1926,7 @@
 "TERMINAL" = "TERMINAL";
 "TERMINAL APP" = "TERMINAL APP";
 "TEXT" = "TEXT";
+"TEXT ADAPTS TO THE READER’S SCREEN AND FONT SIZE. BEST FOR READING." = "TEXT ADAPTS TO THE READER’S SCREEN AND FONT SIZE. BEST FOR READING.";
 "TEXT OR CALLOUT" = "TEXT OR CALLOUT";
 "TEXT SIZE" = "TEXT SIZE";
 "TEXTURE" = "TEXTURE";
@@ -2011,6 +2014,7 @@
 "Terminal" = "Terminal";
 "Terminal app" = "Terminal app";
 "Text" = "Text";
+"Text adapts to the reader’s screen and font size. Best for reading." = "Text adapts to the reader’s screen and font size. Best for reading.";
 "Text or callout" = "Text or callout";
 "Text size" = "Text size";
 "Texture" = "Texture";

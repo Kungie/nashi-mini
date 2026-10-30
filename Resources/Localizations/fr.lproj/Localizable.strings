@@ -1064,6 +1064,7 @@
 "KEEP THE ORIGINAL PAGES" = "CONSERVER LES PAGES D’ORIGINE";
 "KEEP THEM TOGETHER, OR GIVE EACH ONE A FRESH START." = "TRAITEZ-LES ENSEMBLE OU UN PAR UN.";
 "KEEP THINGS\nMOVING." = "GARDEZ LE\nRYTHME.";
+"KEEPS THE LOOK AND DIMENSIONS OF EACH PAGE. BEST FOR VISUAL LAYOUTS." = "CONSERVE L’APPARENCE ET LES DIMENSIONS DE CHAQUE PAGE. IDÉAL POUR LES MISES EN PAGE VISUELLES.";
 "Keep at least one clip." = "Conservez au moins un clip.";
 "Keep at least one page." = "Conservez au moins une page.";
 "Keep dragging\nDrop a file or link" = "Continuez à glisser\nDéposez un fichier ou un lien";
@@ -1075,6 +1076,7 @@
 "Keep the original pages" = "Conserver les pages d’origine";
 "Keep them together, or give each one a fresh start." = "Traitez-les ensemble ou un par un.";
 "Keep things\nmoving." = "Gardez le\nrythme.";
+"Keeps the look and dimensions of each page. Best for visual layouts." = "Conserve l’apparence et les dimensions de chaque page. Idéal pour les mises en page visuelles.";
 "LANDSCAPE" = "PAYSAGE";
 "LANDSCAPE · 16:9" = "PAYSAGE · 16:9";
 "LANGUAGE" = "LANGUE";
@@ -1924,6 +1926,7 @@
 "TERMINAL" = "TERMINAL";
 "TERMINAL APP" = "APPLICATION TERMINAL";
 "TEXT" = "TEXTE";
+"TEXT ADAPTS TO THE READER’S SCREEN AND FONT SIZE. BEST FOR READING." = "LE TEXTE S’ADAPTE À L’ÉCRAN ET À LA TAILLE DE POLICE DU LECTEUR. IDÉAL POUR LA LECTURE.";
 "TEXT OR CALLOUT" = "TEXTE OU LÉGENDE";
 "TEXT SIZE" = "TAILLE DU TEXTE";
 "TEXTURE" = "TEXTURE";
@@ -2011,6 +2014,7 @@
 "Terminal" = "Terminal";
 "Terminal app" = "Application Terminal";
 "Text" = "Texte";
+"Text adapts to the reader’s screen and font size. Best for reading." = "Le texte s’adapte à l’écran et à la taille de police du lecteur. Idéal pour la lecture.";
 "Text or callout" = "Texte ou légende";
 "Text size" = "Taille du texte";
 "Texture" = "Texture";
