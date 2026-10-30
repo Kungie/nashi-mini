@@ -11,6 +11,7 @@
 "%@ files, ready to go." = "%@ files, ready to go.";
 "%@ input" = "%@ input";
 "%@ is enabled" = "%@ is enabled";
+"%@ is not installed." = "%@ is not installed.";
 "%@ items" = "%@ items";
 "%@ photos" = "%@ photos";
 "%@ selected" = "%@ selected";
@@ -28,6 +29,7 @@
 "%lld files, ready to go." = "%lld files, ready to go.";
 "%lld input" = "%lld input";
 "%lld is enabled" = "%lld is enabled";
+"%lld is not installed." = "%lld is not installed.";
 "%lld items" = "%lld items";
 "%lld photos" = "%lld photos";
 "%lld selected" = "%lld selected";
@@ -123,6 +125,7 @@
 "ADD TO AN EXISTING FLOAT" = "ADD TO AN EXISTING FLOAT";
 "ADDING PAGES…" = "ADDING PAGES…";
 "ADDITIONAL OPTIONS" = "ADDITIONAL OPTIONS";
+"AIRDROP IS UNAVAILABLE ON THIS MAC." = "AIRDROP IS UNAVAILABLE ON THIS MAC.";
 "ALL" = "ALL";
 "ALL METADATA" = "ALL METADATA";
 "ALL SET. YOU’RE READY TO GO." = "ALL SET. YOU’RE READY TO GO.";
@@ -190,6 +193,7 @@
 "Add to an existing Float" = "Add to an existing Float";
 "Adding pages…" = "Adding pages…";
 "Additional options" = "Additional options";
+"AirDrop is unavailable on this Mac." = "AirDrop is unavailable on this Mac.";
 "All" = "All";
 "All metadata" = "All metadata";
 "All set. You’re ready to go." = "All set. You’re ready to go.";
@@ -426,6 +430,8 @@
 "COPY PATH" = "COPY PATH";
 "CORNER RADIUS" = "CORNER RADIUS";
 "CORNERS" = "CORNERS";
+"COULD NOT COPY THE SELECTED FILE PATHS." = "COULD NOT COPY THE SELECTED FILE PATHS.";
+"COULD NOT COPY THE SELECTED FILES." = "COULD NOT COPY THE SELECTED FILES.";
 "COULDN’T CHECK FOR UPDATES" = "COULDN’T CHECK FOR UPDATES";
 "COULDN’T FINISH" = "COULDN’T FINISH";
 "COULDN’T OPEN THIS TOOL" = "COULDN’T OPEN THIS TOOL";
@@ -604,6 +610,8 @@
 "Copy path" = "Copy path";
 "Corner radius" = "Corner radius";
 "Corners" = "Corners";
+"Could not copy the selected file paths." = "Could not copy the selected file paths.";
+"Could not copy the selected files." = "Could not copy the selected files.";
 "Couldn’t check for updates" = "Couldn’t check for updates";
 "Couldn’t finish" = "Couldn’t finish";
 "Couldn’t open this tool" = "Couldn’t open this tool";

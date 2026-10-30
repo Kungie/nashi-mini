@@ -11,6 +11,7 @@
 "%@ files, ready to go." = "%@ fichiers, prêts à partir.";
 "%@ input" = "Entrée %@";
 "%@ is enabled" = "%@ est activé";
+"%@ is not installed." = "%@ n’est pas installé.";
 "%@ items" = "%@ éléments";
 "%@ photos" = "%@ photos";
 "%@ selected" = "%@ sélectionnés";
@@ -28,6 +29,7 @@
 "%lld files, ready to go." = "%lld fichiers, prêts à partir.";
 "%lld input" = "Entrée %lld";
 "%lld is enabled" = "%lld est activé";
+"%lld is not installed." = "%lld n’est pas installé.";
 "%lld items" = "%lld éléments";
 "%lld photos" = "%lld photos";
 "%lld selected" = "%lld sélectionnés";
@@ -123,6 +125,7 @@
 "ADD TO AN EXISTING FLOAT" = "AJOUTER À UN FLOAT EXISTANT";
 "ADDING PAGES…" = "AJOUT DES PAGES…";
 "ADDITIONAL OPTIONS" = "OPTIONS SUPPLÉMENTAIRES";
+"AIRDROP IS UNAVAILABLE ON THIS MAC." = "AIRDROP N’EST PAS DISPONIBLE SUR CE MAC.";
 "ALL" = "TOUT";
 "ALL METADATA" = "TOUTES LES MÉTADONNÉES";
 "ALL SET. YOU’RE READY TO GO." = "TOUT EST EN PLACE. VOUS ÊTES PRÊT.";
@@ -190,6 +193,7 @@
 "Add to an existing Float" = "Ajouter à un Float existant";
 "Adding pages…" = "Ajout des pages…";
 "Additional options" = "Options supplémentaires";
+"AirDrop is unavailable on this Mac." = "AirDrop n’est pas disponible sur ce Mac.";
 "All" = "Tout";
 "All metadata" = "Toutes les métadonnées";
 "All set. You’re ready to go." = "Tout est en place. Vous êtes prêt.";
@@ -426,6 +430,8 @@
 "COPY PATH" = "COPIER LE CHEMIN";
 "CORNER RADIUS" = "RAYON DES COINS";
 "CORNERS" = "COINS";
+"COULD NOT COPY THE SELECTED FILE PATHS." = "IMPOSSIBLE DE COPIER LES CHEMINS DES FICHIERS SÉLECTIONNÉS.";
+"COULD NOT COPY THE SELECTED FILES." = "IMPOSSIBLE DE COPIER LES FICHIERS SÉLECTIONNÉS.";
 "COULDN’T CHECK FOR UPDATES" = "IMPOSSIBLE DE RECHERCHER LES MISES À JOUR";
 "COULDN’T FINISH" = "IMPOSSIBLE DE TERMINER";
 "COULDN’T OPEN THIS TOOL" = "IMPOSSIBLE D’OUVRIR CET OUTIL";
@@ -604,6 +610,8 @@
 "Copy path" = "Copier le chemin";
 "Corner radius" = "Rayon des coins";
 "Corners" = "Coins";
+"Could not copy the selected file paths." = "Impossible de copier les chemins des fichiers sélectionnés.";
+"Could not copy the selected files." = "Impossible de copier les fichiers sélectionnés.";
 "Couldn’t check for updates" = "Impossible de rechercher les mises à jour";
 "Couldn’t finish" = "Impossible de terminer";
 "Couldn’t open this tool" = "Impossible d’ouvrir cet outil";

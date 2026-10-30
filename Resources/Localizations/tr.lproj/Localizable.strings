@@ -11,6 +11,7 @@
 "%@ files, ready to go." = "%@ dosya hazır.";
 "%@ input" = "%@ girdisi";
 "%@ is enabled" = "%@ izni açık";
+"%@ is not installed." = "%@ kurulu değil.";
 "%@ items" = "%@ öğe";
 "%@ photos" = "%@ fotoğraf";
 "%@ selected" = "%@ seçili";
@@ -28,6 +29,7 @@
 "%lld files, ready to go." = "%lld dosya hazır.";
 "%lld input" = "%lld girdisi";
 "%lld is enabled" = "%lld izni açık";
+"%lld is not installed." = "%lld kurulu değil.";
 "%lld items" = "%lld öğe";
 "%lld photos" = "%lld fotoğraf";
 "%lld selected" = "%lld seçili";
@@ -123,6 +125,7 @@
 "ADD TO AN EXISTING FLOAT" = "MEVCUT YÜZEN PENCEREYE EKLE";
 "ADDING PAGES…" = "SAYFALAR EKLENİYOR…";
 "ADDITIONAL OPTIONS" = "DİĞER SEÇENEKLER";
+"AIRDROP IS UNAVAILABLE ON THIS MAC." = "AİRDROP BU MAC'TE KULLANILAMIYOR.";
 "ALL" = "TÜMÜ";
 "ALL METADATA" = "TÜM META VERİLER";
 "ALL SET. YOU’RE READY TO GO." = "HER ŞEY HAZIR.";
@@ -190,6 +193,7 @@
 "Add to an existing Float" = "Mevcut yüzen pencereye ekle";
 "Adding pages…" = "Sayfalar ekleniyor…";
 "Additional options" = "Diğer seçenekler";
+"AirDrop is unavailable on this Mac." = "AirDrop bu Mac'te kullanılamıyor.";
 "All" = "Tümü";
 "All metadata" = "Tüm meta veriler";
 "All set. You’re ready to go." = "Her şey hazır.";
@@ -426,6 +430,8 @@
 "COPY PATH" = "YOLU KOPYALA";
 "CORNER RADIUS" = "KÖŞE YUVARLAKLIĞI";
 "CORNERS" = "KÖŞELER";
+"COULD NOT COPY THE SELECTED FILE PATHS." = "SEÇİLİ DOSYA YOLLARI KOPYALANAMADI.";
+"COULD NOT COPY THE SELECTED FILES." = "SEÇİLİ DOSYALAR KOPYALANAMADI.";
 "COULDN’T CHECK FOR UPDATES" = "GÜNCELLEMELER DENETLENEMEDİ";
 "COULDN’T FINISH" = "İŞLEM TAMAMLANAMADI";
 "COULDN’T OPEN THIS TOOL" = "BU ARAÇ AÇILAMADI";
@@ -604,6 +610,8 @@
 "Copy path" = "Yolu kopyala";
 "Corner radius" = "Köşe yuvarlaklığı";
 "Corners" = "Köşeler";
+"Could not copy the selected file paths." = "Seçili dosya yolları kopyalanamadı.";
+"Could not copy the selected files." = "Seçili dosyalar kopyalanamadı.";
 "Couldn’t check for updates" = "Güncellemeler denetlenemedi";
 "Couldn’t finish" = "İşlem tamamlanamadı";
 "Couldn’t open this tool" = "Bu araç açılamadı";
