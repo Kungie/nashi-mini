@@ -380,6 +380,7 @@
 "COLOR" = "COULEUR";
 "COLUMN" = "COLONNE";
 "COLUMNS" = "COLONNES";
+"COMMAND FOR TOOLS" = "COMMANDE POUR LES OUTILS";
 "COMPATIBILITY" = "COMPATIBILITÉ";
 "COMPRESS" = "COMPRESSER";
 "COMPRESS & SAVE" = "COMPRESSER ET ENREGISTRER";
@@ -391,8 +392,10 @@
 "COMPRESSION REQUIRES A KNOWN DURATION." = "LA COMPRESSION NÉCESSITE UNE DURÉE CONNUE.";
 "COMPRESSION SETTINGS" = "RÉGLAGES DE COMPRESSION";
 "COMPRESSION STRENGTH" = "INTENSITÉ DE COMPRESSION";
+"CONTINUE" = "CONTINUER";
 "CONTINUE TO NASHI" = "CONTINUER VERS NASHI";
 "CONTRAST" = "CONTRASTE";
+"CONTROL FOR ACTIONS" = "CONTRÔLE POUR LES ACTIONS";
 "CONVERSION SETTINGS" = "RÉGLAGES DE CONVERSION";
 "CONVERSION WHEEL" = "ROUE DE CONVERSION";
 "CONVERSIONS" = "CONVERSIONS";
@@ -539,6 +542,7 @@
 "Color" = "Couleur";
 "Column" = "Colonne";
 "Columns" = "Colonnes";
+"Command for tools" = "Commande pour les outils";
 "Compatibility" = "Compatibilité";
 "Compress" = "Compresser";
 "Compress & save" = "Compresser et enregistrer";
@@ -558,8 +562,10 @@
 "Compression preset" = "Préréglage de compression";
 "Compression requires a known duration." = "La compression nécessite une durée connue.";
 "Compression strength" = "Intensité de compression";
+"Continue" = "Continuer";
 "Continue to Nashi" = "Continuer vers Nashi";
 "Contrast" = "Contraste";
+"Control for actions" = "Contrôle pour les actions";
 "Conversion Settings" = "Réglages de conversion";
 "Conversion wheel" = "Roue de conversion";
 "Conversions" = "Conversions";
@@ -647,6 +653,7 @@
 "DOWNLOADING LIBREOFFICE 26.8.1…" = "TÉLÉCHARGEMENT DE LIBREOFFICE 26.8.1…";
 "DOWNLOADING…" = "TÉLÉCHARGEMENT…";
 "DRAG A CROP INSIDE THE IMAGE." = "FAITES GLISSER UN RECADRAGE À L’INTÉRIEUR DE L’IMAGE.";
+"DRAG A FILE IN FINDER, TAP SHIFT, AND DROP ONTO ITS NEXT FORMAT." = "FAITES GLISSER UN FICHIER DANS LE FINDER, APPUYEZ SUR MAJ ET DÉPOSEZ-LE SUR SON NOUVEAU FORMAT.";
 "DRAG A RANGE TO MOVE IT; DRAG ITS EDGES TO RESIZE. DRAG EMPTY SPACE TO ADD." = "FAITES GLISSER UNE PLAGE POUR LA DÉPLACER ; FAITES GLISSER SES BORDS POUR LA REDIMENSIONNER. FAITES GLISSER DANS LE VIDE POUR EN AJOUTER UNE.";
 "DRAG A REGION TO COVER WITH A SOLID BLOCK." = "FAITES GLISSER POUR SÉLECTIONNER UNE ZONE À RECOUVRIR D’UN BLOC PLEIN.";
 "DRAG A WINDOW BY ITS TITLE BAR OR RESIZE BORDER, THEN TAP SHIFT OR COMMAND. HOVER OVER A LAYOUT AND RELEASE THE MOUSE TO PLACE IT. ESCAPE CANCELS." = "FAITES GLISSER UNE FENÊTRE PAR SA BARRE DE TITRE OU SON BORD DE REDIMENSIONNEMENT, PUIS APPUYEZ SUR MAJ OU COMMANDE. SURVOLEZ UNE DISPOSITION ET RELÂCHEZ LA SOURIS POUR PLACER LA FENÊTRE. ÉCHAP ANNULE.";
@@ -722,6 +729,7 @@
 "Downloading Nashi %lld…" = "Téléchargement de Nashi %lld…";
 "Downloading…" = "Téléchargement…";
 "Drag a crop inside the image." = "Faites glisser un recadrage à l’intérieur de l’image.";
+"Drag a file in Finder, tap Shift, and drop onto its next format." = "Faites glisser un fichier dans le Finder, appuyez sur Maj et déposez-le sur son nouveau format.";
 "Drag a range to move it; drag its edges to resize. Drag empty space to add." = "Faites glisser une plage pour la déplacer ; faites glisser ses bords pour la redimensionner. Faites glisser dans le vide pour en ajouter une.";
 "Drag a region to cover with a solid block." = "Faites glisser pour sélectionner une zone à recouvrir d’un bloc plein.";
 "Drag a window by its title bar or resize border, then tap Shift or Command. Hover over a layout and release the mouse to place it. Escape cancels." = "Faites glisser une fenêtre par sa barre de titre ou son bord de redimensionnement, puis appuyez sur Maj ou Commande. Survolez une disposition et relâchez la souris pour placer la fenêtre. Échap annule.";
@@ -1080,6 +1088,7 @@
 "LEFT THIRD" = "TIERS GAUCHE";
 "LEFT TWO-THIRDS" = "DEUX TIERS GAUCHE";
 "LEFT VOLUME" = "VOLUME GAUCHE";
+"LET’S GO" = "C’EST PARTI";
 "LET’S MAKE SOMETHING OF IT." = "FAISONS-EN QUELQUE CHOSE.";
 "LET’S TRY THAT AGAIN." = "RÉESSAYONS.";
 "LIBRARY" = "BIBLIOTHÈQUE";
@@ -1109,6 +1118,7 @@
 "Left third" = "Tiers gauche";
 "Left two-thirds" = "Deux tiers gauche";
 "Left volume" = "Volume gauche";
+"Let’s go" = "C’est parti";
 "Let’s make something of it." = "Faisons-en quelque chose.";
 "Let’s try that again." = "Réessayons.";
 "Library" = "Bibliothèque";
@@ -1716,6 +1726,7 @@
 "SHARPEN" = "ACCENTUER";
 "SHARPNESS" = "NETTETÉ";
 "SHIFT LOCKS THE RATIO · RETURN CROPS\nDRAG INSIDE TO MOVE; DRAG A HANDLE TO RESIZE." = "MAJ VERROUILLE LES PROPORTIONS · RETOUR RECADRE\nFAITES GLISSER À L’INTÉRIEUR POUR DÉPLACER ; FAITES GLISSER UNE POIGNÉE POUR REDIMENSIONNER.";
+"SHIFT TO CONVERT" = "MAJ POUR CONVERTIR";
 "SHOW IN EXPLORER" = "AFFICHER DANS L’EXPLORATEUR";
 "SHOW IN FINDER" = "AFFICHER DANS LE FINDER";
 "SHOW NASHI IN FINDER" = "AFFICHER NASHI DANS LE FINDER";
@@ -1855,6 +1866,7 @@
 "Sharpen" = "Accentuer";
 "Sharpness" = "Netteté";
 "Shift locks the ratio · Return crops\nDrag inside to move; drag a handle to resize." = "Maj verrouille les proportions · Retour recadre\nFaites glisser à l’intérieur pour déplacer ; faites glisser une poignée pour redimensionner.";
+"Shift to convert" = "Maj pour convertir";
 "Show Nashi in Finder" = "Afficher Nashi dans le Finder";
 "Show Original" = "Afficher l’original";
 "Show in Explorer" = "Afficher dans l’Explorateur";
@@ -1901,6 +1913,8 @@
 "Subtitles" = "Sous-titres";
 "Subtle animations" = "Animations discrètes";
 "System" = "Système";
+"TAP COMMAND WHILE DRAGGING TO CROP, COMPRESS, ANNOTATE, AND GIVE YOUR FILE A LITTLE LOVE." = "APPUYEZ SUR COMMANDE EN GLISSANT POUR RECADRER, COMPRESSER, ANNOTER ET CHOYER VOTRE FICHIER.";
+"TAP CONTROL WHILE DRAGGING TO COPY, MOVE, SHARE, OR CARRY FILES IN A FLOATING SHELF." = "APPUYEZ SUR CONTRÔLE PENDANT LE GLISSEMENT POUR COPIER, DÉPLACER, PARTAGER OU EMPORTER VOS FICHIERS DANS UN PANNEAU FLOTTANT.";
 "TAP THE CHOSEN MODIFIER COMBINATION WHILE DRAGGING FILES." = "APPUYEZ SUR LA COMBINAISON DE MODIFICATEURS CHOISIE PENDANT QUE VOUS FAITES GLISSER DES FICHIERS.";
 "TARGET" = "CIBLE";
 "TARGET LOUDNESS" = "VOLUME SONORE CIBLE";
@@ -1986,6 +2000,8 @@
 "TRY A CLEARER IMAGE OR ANOTHER PDF." = "ESSAYEZ UNE IMAGE PLUS NETTE OU UN AUTRE PDF.";
 "TRY FEEDBACK" = "ESSAYER LE RETOUR";
 "TURN OFF UNIFORM WIDTH TO PRESERVE THIS PDF’S FORM FIELDS, ATTACHMENTS, LINKS OR NAVIGATION." = "DÉSACTIVEZ LA LARGEUR UNIFORME POUR PRÉSERVER LES CHAMPS DE FORMULAIRE, PIÈCES JOINTES, LIENS OU LA NAVIGATION DE CE PDF.";
+"Tap Command while dragging to crop, compress, annotate, and give your file a little love." = "Appuyez sur Commande en glissant pour recadrer, compresser, annoter et choyer votre fichier.";
+"Tap Control while dragging to copy, move, share, or carry files in a floating shelf." = "Appuyez sur Contrôle pendant le glissement pour copier, déplacer, partager ou emporter vos fichiers dans un panneau flottant.";
 "Tap the chosen modifier combination while dragging files." = "Appuyez sur la combinaison de modificateurs choisie pendant que vous faites glisser des fichiers.";
 "Target" = "Cible";
 "Target LUFS" = "LUFS cible";
