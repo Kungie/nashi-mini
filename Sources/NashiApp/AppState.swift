@@ -11,7 +11,8 @@ struct JobRecord:Codable,Identifiable {
 }
 
 @MainActor final class AppState:NSObject,ObservableObject {
-    @Published var inputs:[URL]=[]
+    // Cleared here rather than in a later Home update, which would also drop the error of the action that changed the selection.
+    @Published var inputs:[URL]=[] { didSet { if !working { outputs=[];error=nil } } }
     @Published var working=false
     @Published var progress=0.0
     @Published var progressIsDeterminate=false
@@ -142,7 +143,7 @@ struct JobRecord:Codable,Identifiable {
             let panel=NSOpenPanel();panel.canChooseFiles=false;panel.canChooseDirectories=true;panel.canCreateDirectories=true;panel.prompt="Move Here"
             NSApp.activate(ignoringOtherApps:true)
             if panel.runModal() == .OK,let directory=panel.url {
-                var moved:[URL:URL]=[:]
+                var moved:[URL:URL]=[:],failure:Error?
                 do { for source in urls {
                     var target=directory.appendingPathComponent(source.lastPathComponent)
                     if target.standardizedFileURL == source.standardizedFileURL || sameFolder(source.deletingLastPathComponent(),directory) { continue }
@@ -150,8 +151,10 @@ struct JobRecord:Codable,Identifiable {
                     var index=2
                     while (try? FileManager.default.attributesOfItem(atPath:target.path)) != nil { target=directory.appendingPathComponent("\(source.deletingPathExtension().lastPathComponent) \(index)").appendingPathExtension(source.pathExtension.lowercased());index+=1 }
                     try FileManager.default.moveItem(at:source,to:target);moved[source]=target
-                };reportSuccess(.action("Files moved.",files:urls.map{moved[$0] ?? $0})) } catch { self.error=error.localizedDescription }
+                } } catch { failure=error }
+                // Point the selection at the moved files first: changing it clears the previous result, not this one.
                 inputs=inputs.map{moved[$0] ?? $0}
+                if let failure { self.error=failure.localizedDescription } else { reportSuccess(.action("Files moved.",files:urls.map{moved[$0] ?? $0})) }
                 // Keep Library records pointing at files Nashi itself moved.
                 let movedPaths=Dictionary(moved.map{($0.key.path,$0.value.path)},uniquingKeysWith:{first,_ in first})
                 if !movedPaths.isEmpty {

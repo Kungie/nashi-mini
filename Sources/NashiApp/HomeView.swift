@@ -86,7 +86,6 @@ struct HomeView:View {
             .nashiAnimation(value:state.inputs.isEmpty).nashiAnimation(value:state.working)
             .nashiAnimation(value:updater.availableVersion)
             .onChange(of:state.libraryFocusRequest) { _ in librarySearchFocused=true }
-            .onChange(of:state.inputs) { _ in if !state.working { state.outputs=[];state.error=nil } }
     }
     private var libraryPage:some View {
         ScrollViewReader { scroll in
