@@ -19,6 +19,8 @@
 "%@ ways to change it" = "%@ ways to change it";
 "%@ · Nashi" = "%@ · Nashi";
 "%@ · Original stays safe" = "%@ · Original stays safe";
+"%@, page %@" = "%@, page %@";
+"%@, page %lld" = "%@, page %lld";
 "%lld  Convert" = "%lld  Convert";
 "%lld  File actions" = "%lld  File actions";
 "%lld  Tools" = "%lld  Tools";
@@ -37,6 +39,8 @@
 "%lld ways to change it" = "%lld ways to change it";
 "%lld · Nashi" = "%lld · Nashi";
 "%lld · Original stays safe" = "%lld · Original stays safe";
+"%lld, page %@" = "%lld, page %@";
+"%lld, page %lld" = "%lld, page %lld";
 "1 ITEM" = "1 ITEM";
 "1 PHOTO" = "1 PHOTO";
 "1 item" = "1 item";
