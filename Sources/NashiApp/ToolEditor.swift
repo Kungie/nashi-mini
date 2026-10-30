@@ -712,10 +712,11 @@ struct ToolEditor:View {
         options.crop=r;width=Int(r.width);height=Int(r.height)
     }
     func previewChannel(_ channel:Int) {
-        guard let input,readyToApply,!isLoading else { return };let settings=options,token=previewToken,generation=editorGeneration
+        guard let input,readyToApply,!isLoading else { return };let settings=options,token=previewToken,generation=editorGeneration,key=previewKey
         Task { do {
             let url=try await Task.detached { try MediaEngine.previewChannel(input,channel:channel,options:settings,token:token) }.value
-            guard generation==editorGeneration,!token.isCancelled else { try? FileManager.default.removeItem(at:url.deletingLastPathComponent());return }
+            // A setting changed while the preview was being made: it no longer shows the current settings.
+            guard generation==editorGeneration,!token.isCancelled,key==previewKey else { try? FileManager.default.removeItem(at:url.deletingLastPathComponent());return }
             player?.pause();if let old=channelPreviewURL { try? FileManager.default.removeItem(at:old.deletingLastPathComponent()) };channelPreviewURL=url;playerReachedEnd=false;player=AVPlayer(url:url);processedPlayback=true;player?.play()
         } catch { if generation==editorGeneration,!token.isCancelled { previewError=error.localizedDescription } } }
     }
@@ -797,15 +798,17 @@ struct ToolEditor:View {
     }
     func playOriginal(play:Bool=true) { processedPlayback=false;processedWaveform=nil;processedDuration=nil;if let url=playbackURL ?? input { let time=playhead;player?.pause();player=AVPlayer(url:url);seek(time);if play { if time>=duration-0.001 { seek(0) };player?.play() } } }
     func processedPreview() {
-        guard let input,readyToApply,!isLoading else { return };var settings=options;let kind=tool,token=previewToken,generation=editorGeneration
+        guard let input,readyToApply,!isLoading else { return };var settings=options;let kind=tool,token=previewToken,generation=editorGeneration,key=previewKey
         if kind == .splitVideo { settings.joinSplitClips=true }
         previewBusy=true
         Task { do {
             let preview=try await MediaPreviewEngine.processedPreview(kind,input:input,options:settings,token:token)
             guard generation==editorGeneration,!token.isCancelled else { preview.removeTemporaryFiles();return }
+            // A setting changed while the preview was being made: it no longer shows the current settings.
+            guard key==previewKey else { preview.removeTemporaryFiles();previewBusy=false;return }
             processedDuration=(try? MediaEngine.inspect(preview.playbackURL).duration)
             player?.pause();if let old=channelPreviewURL { try? FileManager.default.removeItem(at:old.deletingLastPathComponent()) };channelPreviewURL=preview.playbackURL;playerReachedEnd=false;player=AVPlayer(url:preview.playbackURL);processedPlayback=true;player?.play()
-            if kind == .normalizeAudio { let url=preview.playbackURL;let peaks=try await Task.detached { try MediaPreviewEngine.waveformPeaks(url,token:token) }.value;try checkGeneration(generation,token:token);processedWaveform=peaks }
+            if kind == .normalizeAudio { let url=preview.playbackURL;let peaks=try await Task.detached { try MediaPreviewEngine.waveformPeaks(url,token:token) }.value;try checkGeneration(generation,token:token);if key==previewKey { processedWaveform=peaks } }
         } catch { if generation==editorGeneration,!token.isCancelled { previewError=error.localizedDescription } }
             if generation==editorGeneration,!token.isCancelled { previewBusy=false }
         }
