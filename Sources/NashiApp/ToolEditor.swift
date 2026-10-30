@@ -454,7 +454,7 @@ struct ToolEditor:View {
             Text("\(index+1)").foregroundStyle(.secondary).frame(width:20);Image(nsImage:NSWorkspace.shared.icon(forFile:url.path)).resizable().frame(width:28,height:28);Text(url.lastPathComponent).lineLimit(1);Spacer()
             Button { inputs.swapAt(index,index-1) } label:{Image(systemName:"chevron.up")}.disabled(index==0)
             Button { inputs.swapAt(index,index+1) } label:{Image(systemName:"chevron.down")}.disabled(index==inputs.count-1)
-        } } }
+        } } }.disabled(state.working)
     }
     var pdfControls:some View {
         VStack(alignment:.leading,spacing:14) {
