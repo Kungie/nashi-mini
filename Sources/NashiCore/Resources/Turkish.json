@@ -1052,6 +1052,7 @@
   "Splitting requires a known duration.": "Bölmek için sürenin bilinmesi gerekiyor.",
   "Staging cannot be a symbolic link.": "Geçici klasör sembolik bağlantı olamaz.",
   "Start must be before End, within the media duration.": "Başlangıç, Bitiş'ten önce ve medya süresi içinde olmalı.",
+  "Choose a valid start and end within the file’s duration.": "Dosyanın süresi içinde geçerli bir başlangıç ve bitiş seç.",
   "That PDF size cannot be reached while keeping selectable text, links and annotations. Choose a larger target.": "Seçilebilir metin, bağlantılar ve notlar korunarak bu PDF boyutuna inilemiyor. Daha büyük bir hedef seç.",
   "The archive contains an unsafe path.": "Arşivde güvenli olmayan bir yol var.",
   "The archive entry leaves its destination.": "Arşivdeki bir öğe hedef klasörün dışına çıkıyor.",

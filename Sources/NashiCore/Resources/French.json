@@ -1051,6 +1051,7 @@
   "Splitting requires a known duration.": "La division nécessite une durée connue.",
   "Staging cannot be a symbolic link.": "Le dossier intermédiaire ne peut pas être un lien symbolique.",
   "Start must be before End, within the media duration.": "Le début doit précéder la fin, dans la durée du média.",
+  "Choose a valid start and end within the file’s duration.": "Choisissez un début et une fin valides, dans la durée du fichier.",
   "That PDF size cannot be reached while keeping selectable text, links and annotations. Choose a larger target.": "Cette taille de PDF est impossible à atteindre en conservant le texte sélectionnable, les liens et les annotations. Choisissez une cible plus grande.",
   "The archive contains an unsafe path.": "L’archive contient un chemin non sûr.",
   "The archive entry leaves its destination.": "L’entrée de l’archive sort de sa destination.",

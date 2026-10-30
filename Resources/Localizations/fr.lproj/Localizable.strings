@@ -339,6 +339,7 @@
 "CHOOSE A TARGET OF AT LEAST 2 KB." = "CHOISISSEZ UNE CIBLE D’AU MOINS 2 KO.";
 "CHOOSE A VALID RANGE FIRST." = "CHOISISSEZ D’ABORD UNE PLAGE VALIDE.";
 "CHOOSE A VALID RANGE." = "CHOISISSEZ UNE PLAGE VALIDE.";
+"CHOOSE A VALID START AND END WITHIN THE FILE’S DURATION." = "CHOISISSEZ UN DÉBUT ET UNE FIN VALIDES, DANS LA DURÉE DU FICHIER.";
 "CHOOSE A VALID TIME RANGE." = "CHOISISSEZ UNE PLAGE DE TEMPS VALIDE.";
 "CHOOSE AN EXISTING MEDIA FILE." = "CHOISISSEZ UN FICHIER MÉDIA EXISTANT.";
 "CHOOSE AN IMAGE." = "CHOISISSEZ UNE IMAGE.";
@@ -513,6 +514,7 @@
 "Choose a target of at least 2 KB." = "Choisissez une cible d’au moins 2 Ko.";
 "Choose a valid range first." = "Choisissez d’abord une plage valide.";
 "Choose a valid range." = "Choisissez une plage valide.";
+"Choose a valid start and end within the file’s duration." = "Choisissez un début et une fin valides, dans la durée du fichier.";
 "Choose a valid time range." = "Choisissez une plage de temps valide.";
 "Choose an Instagram photo post link." = "Choisissez un lien de publication de photos Instagram.";
 "Choose an existing media file." = "Choisissez un fichier média existant.";
