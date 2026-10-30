@@ -665,7 +665,7 @@ struct ToolEditor:View {
             applied.metadataRemoveAll=metadataRemoveAll
             if usesImageMetadata { var edit=ImageMetadataOptions();edit.removeAll=metadataRemoveAll;edit.updates=metadata.filter{originalMetadata[$0.key] != $0.value};edit.removals=metadataRemoveAll ? []:originalMetadata.keys.filter{metadata[$0]==nil};applied.imageMetadata=edit }
         }
-        state.execute(.tool(tool),options:applied,inputs:inputs)
+        previewError=nil;state.execute(.tool(tool),options:applied,inputs:inputs)
     }
     func saveOrganizedPDF() {
         guard canApply,!pdfEditor.pages.isEmpty else { return }
