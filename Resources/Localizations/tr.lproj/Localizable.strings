@@ -1190,6 +1190,7 @@
 "MOVE" = "TAŞI";
 "MOVE & SHARE" = "TAŞI VE PAYLAŞ";
 "MOVE DOWN" = "AŞAĞI TAŞI";
+"MOVE HERE" = "BURAYA TAŞI";
 "MOVE LEFT" = "SOLA TAŞI";
 "MOVE REGULAR FILES AND FOLDERS WITHOUT SYMBOLIC LINKS." = "SEMBOLİK BAĞLANTI İÇERMEYEN NORMAL DOSYA VE KLASÖRLERİ TAŞI.";
 "MOVE RIGHT" = "SAĞA TAŞI";
@@ -1230,6 +1231,7 @@
 "Monospaced" = "Eş aralıklı";
 "Move" = "Taşı";
 "Move & share" = "Taşı ve paylaş";
+"Move Here" = "Buraya Taşı";
 "Move Left" = "Sola Taşı";
 "Move Right" = "Sağa Taşı";
 "Move down" = "Aşağı taşı";

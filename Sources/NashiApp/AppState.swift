@@ -139,7 +139,7 @@ struct JobRecord:Codable,Identifiable {
             if let service=NSSharingService(named:.sendViaAirDrop),service.canPerform(withItems:urls) { sharingService=service;service.delegate=self;service.perform(withItems:urls) }
             else { error="AirDrop is unavailable on this Mac." }
         case .move:
-            let panel=NSOpenPanel();panel.canChooseFiles=false;panel.canChooseDirectories=true;panel.canCreateDirectories=true;panel.prompt="Move Here"
+            let panel=NSOpenPanel();panel.canChooseFiles=false;panel.canChooseDirectories=true;panel.canCreateDirectories=true;panel.prompt=L10n.text("Move Here")
             NSApp.activate(ignoringOtherApps:true)
             if panel.runModal() == .OK,let directory=panel.url {
                 var moved:[URL:URL]=[:]

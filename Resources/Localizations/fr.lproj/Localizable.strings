@@ -1190,6 +1190,7 @@
 "MOVE" = "DÉPLACER";
 "MOVE & SHARE" = "DÉPLACER ET PARTAGER";
 "MOVE DOWN" = "DÉPLACER VERS LE BAS";
+"MOVE HERE" = "DÉPLACER ICI";
 "MOVE LEFT" = "DÉPLACER VERS LA GAUCHE";
 "MOVE REGULAR FILES AND FOLDERS WITHOUT SYMBOLIC LINKS." = "DÉPLACEZ DES FICHIERS ET DOSSIERS ORDINAIRES, SANS LIENS SYMBOLIQUES.";
 "MOVE RIGHT" = "DÉPLACER VERS LA DROITE";
@@ -1230,6 +1231,7 @@
 "Monospaced" = "Monochasse";
 "Move" = "Déplacer";
 "Move & share" = "Déplacer et partager";
+"Move Here" = "Déplacer ici";
 "Move Left" = "Déplacer à gauche";
 "Move Right" = "Déplacer à droite";
 "Move down" = "Déplacer vers le bas";
