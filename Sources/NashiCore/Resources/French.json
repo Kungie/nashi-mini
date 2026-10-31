@@ -1168,5 +1168,7 @@
   "Save downloaded media to…": "Enregistrer les médias téléchargés dans…",
   "Original image · ready to download": "Image originale · prête à télécharger",
   "YouTube thumbnail · best available full-size image": "Miniature YouTube · meilleure image en taille réelle disponible",
-  "No tools for this file type": "Aucun outil pour ce type de fichier"
+  "No tools for this file type": "Aucun outil pour ce type de fichier",
+  "Details": "Détails",
+  "Copy details": "Copier les détails"
 }
