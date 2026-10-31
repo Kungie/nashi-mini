@@ -1,31 +1,86 @@
 # Nashi Mini
 
-A headless macOS conversion wheel. There is no window, Dock icon or menu bar item: press your mouse button and the wheel opens at the cursor. Pick a format and the converted copy lands in Downloads. Originals are never touched.
+A headless macOS file wheel. There is no main window, Dock icon or menu bar item: press your mouse button, and a wheel opens at the cursor. Pick a format or tool, and the result lands in Downloads. Originals are never touched.
 
-Nashi Mini is a stripped-down derivative of [Nashi](https://github.com/orkunisitmak/nashi-app) by Orkun Işıtmak. It keeps Nashi's conversion engine and wheel, and removes everything else.
+Nashi Mini is a stripped-down derivative of [Nashi](https://github.com/orkunisitmak/nashi-app) by Orkun Işıtmak. It keeps Nashi's engine and wheel, and replaces every editor window with presets.
 
 ## Install
 
-Requires macOS 13+ on Apple Silicon and the Xcode Command Line Tools.
+You need an Apple Silicon Mac on macOS 13 or later.
 
-```sh
-scripts/install.sh
-```
+1. Install Apple's command line tools, if you don't have them:
 
-On first launch, allow Nashi Mini in System Settings › Privacy & Security › Accessibility, then press the mouse button you want. A key combination or function key works too. Nashi Mini starts at login from then on.
+   ```sh
+   xcode-select --install
+   ```
 
-If Logi Options+ owns your button, assign it a keystroke such as F19 there, then press that button in Nashi Mini.
+2. Build and install the app into `/Applications`:
+
+   ```sh
+   git clone https://github.com/Kungie/nashi-mini.git
+   cd nashi-mini
+   scripts/install.sh
+   ```
+
+3. Nashi Mini opens a small window and macOS asks for Accessibility access. Turn on **Nashi Mini** in System Settings › Privacy & Security › Accessibility. The app needs this to hear your button anywhere on the Mac.
+
+4. Set your shortcut. See the next section.
+
+5. Video, audio and Office files need ffmpeg and LibreOffice. If they are missing, the window shows **Download Media & Office Tools**. Click it once. The downloads are large and hash-verified, and a line at the bottom of the screen shows progress. Images and most PDF work don't need them.
+
+Nashi Mini starts at login from then on. The first time you use a Finder selection, macOS also asks to let it control Finder. Allow that too.
+
+## Set your shortcut
+
+With the Nashi Mini window open, press the button you want. It is saved right away, and the window closes.
+
+- **Mouse buttons:** middle, back, forward and any extra button work. Your button stops doing its old job, so the Back button no longer goes back in your browser.
+- **Keys:** use a function key (F1 to F20) alone, or any key with ⌘, ⌥, ⌃ or ⇧. Plain letters are rejected so typing never opens the wheel.
+- **Mouse software:** Logi Options+ and similar apps can keep a button to themselves, such as the MX Master thumb button. If pressing it does nothing in the window, assign that button a keystroke such as F19 in the mouse app (in Logi Options+, pick the button and choose a keystroke assignment). Then press the button in the Nashi Mini window.
+
+To change the shortcut, open Nashi Mini again from Applications and press a new one. Esc keeps the current one.
 
 ## Use
 
 - Select files in Finder and press your button.
-- Or press it while dragging files, then drop them on a format.
+- Or start dragging files and press your button while you drag, then drop them on a format.
 
-Click a format to convert, or press Esc to cancel. Video, audio and Office conversions use the tools Nashi installs in `~/Library/Application Support/Nashi/Tools`.
+The wheel starts on formats. **Click the center** to switch to tools, and click it again to go back. A tool with options opens a smaller wheel of presets. Click a petal to run it, or press Esc or click outside the wheel to cancel. The arrow keys, Return, Tab and Esc also work.
 
-## Change the shortcut or quit
+A line at the bottom of the screen shows progress, the saved file, or any error.
 
-Open Nashi Mini again from Applications. The small window that appears takes a new shortcut, and has a Quit button.
+## Tools
+
+Which tools appear depends on your selection.
+
+| Files | Tools |
+| --- | --- |
+| Image | Compress, Metadata, Edit Photo (rotate, flip, half size, black and white, vivid, brighten, sharpen), Add BG (white, black, gradient), Crop Image (1:1, 4:3, 3:4, 16:9, 9:16 from the center), Read QR Codes |
+| Several images | Compress, Metadata, Crop Image, Read QR Codes, Create PDF, Create Collage |
+| Video | Compress, Metadata, Remove Audio, Trim Video (first 10, 30 or 60 seconds), Crop Video, Change Video Speed (0.5× to 4×), Video Snapshots, Split Video (2 to 5 clips) |
+| Several videos | Compress, Metadata, Remove Audio, Join Videos |
+| Audio | Compress, Metadata, Normalize Volume, Audio Visualizer, Trim Audio (first 10, 30 or 60 seconds, or trim silence), Convert Audio Channels |
+| Several audio files | Compress, Metadata, Normalize Volume |
+| PDF | Compress, Metadata, Split PDF, Organize PDF (reverse pages), Read QR Codes |
+| Several PDFs | Compress, Metadata, Split PDF, Read QR Codes, Merge PDFs |
+| Archive | Extract Archive |
+
+Nashi's Annotate, Redact and Bleep tools are left out, because they need you to draw on the file or mark a time range. Exact trims and free-form crops are out for the same reason.
+
+## Quit or uninstall
+
+Open Nashi Mini from Applications and click **Quit Nashi Mini**. To stop it starting at login, turn it off in System Settings › General › Login Items.
+
+To uninstall, quit it, then delete `/Applications/Nashi Mini.app`. Downloaded tools are in `~/Library/Application Support/Nashi/Tools`, and regular Nashi shares them.
+
+## Update
+
+```sh
+git pull
+scripts/install.sh
+```
+
+The app is signed locally, so macOS may treat each new build as a new app. If the window asks for Accessibility again, remove Nashi Mini from the list, add it back and reopen it.
 
 ## License
 

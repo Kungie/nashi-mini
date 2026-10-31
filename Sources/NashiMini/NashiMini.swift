@@ -21,7 +21,7 @@ import ServiceManagement
     private var leftDown=false
 
     func applicationDidFinishLaunching(_ notification:Notification) {
-        wheel.onConvert={ [weak self] in self?.converter.convert($0,to:$1) }
+        wheel.onAction={ [weak self] in self?.converter.run($0,inputs:$1) }
         monitor.shortcut=ShortcutStore.load()
         monitor.onTrigger={ [weak self] in self?.trigger() }
         monitor.onCapture={ [weak self] in self?.captured($0) }
@@ -29,6 +29,7 @@ import ServiceManagement
         monitor.onLeftUp={ [weak self] in self?.leftMouseUp() }
         monitor.onReady={ [weak self] in self?.promptForShortcut() }
         panel.onClose={ [weak self] in self?.monitor.capturing=false }
+        panel.onDownloadTools={ [weak self] in self?.downloadTools() }
         panel.onOpenSettings={ NSWorkspace.shared.open(URL(string:"x-apple.systempreferences:com.apple.preference.security?Privacy_Accessibility")!) }
         #if DEBUG
         if debugCommand() { return }
@@ -42,7 +43,19 @@ import ServiceManagement
     }
     private func promptForShortcut() {
         monitor.capturing=monitor.isReady
-        panel.show(needsAccess:!monitor.isReady,current:monitor.shortcut)
+        panel.show(needsAccess:!monitor.isReady,needsTools:!ExternalToolSetup.status.ready,current:monitor.shortcut)
+    }
+    /// Fetches the same hash-verified ffmpeg and LibreOffice builds Nashi uses.
+    private func downloadTools() {
+        let token=CancellationToken()
+        let report:@Sendable (Double?,String)->Void={ _,label in Task { @MainActor in Toast.shared.show(label,duration:nil) } }
+        Task {
+            do {
+                try await ExternalToolSetup.installMedia(token:token,progress:report)
+                try await ExternalToolSetup.installOffice(token:token,progress:report)
+                Toast.shared.show("Tools are ready")
+            } catch { Toast.shared.show(error.localizedDescription,duration:6) }
+        }
     }
     private func captured(_ result:ShortcutMonitor.Capture) {
         switch result {
@@ -82,12 +95,16 @@ import ServiceManagement
     private func debugCommand()->Bool {
         let arguments=CommandLine.arguments
         if let index=arguments.firstIndex(of:"--show-wheel") {
-            wheel.show(inputs:arguments[(index+1)...].map{URL(fileURLWithPath:$0)},at:NSEvent.mouseLocation,keyboard:true);return true
+            wheel.show(inputs:arguments[(index+1)...].filter{$0 != "--tools"}.map{URL(fileURLWithPath:$0)},at:NSEvent.mouseLocation,keyboard:true)
+            if arguments.contains("--tools") { wheel.showToolsLevel() }
+            return true
         }
-        if let index=arguments.firstIndex(of:"--convert"),arguments.count>index+2 {
-            converter.convert(arguments[(index+2)...].map{URL(fileURLWithPath:$0)},to:arguments[index+1]);return true
+        if let index=arguments.firstIndex(of:"--test-all"),arguments.count>index+2 {
+            let output=URL(fileURLWithPath:arguments[index+1],isDirectory:true)
+            let groups=arguments[(index+2)...].map{$0.split(separator:",").map{URL(fileURLWithPath:String($0))}}
+            Task.detached { ToolMenu.testAll(groups,output:output);exit(0) };return true
         }
-        if arguments.contains("--show-panel") { panel.show(needsAccess:false,current:nil);return true }
+        if arguments.contains("--show-panel") { panel.show(needsAccess:false,needsTools:true,current:nil);return true }
         return false
     }
     #endif
