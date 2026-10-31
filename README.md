@@ -36,7 +36,9 @@ With the Nashi Mini window open, press the button you want. It is saved right aw
 
 - **Mouse buttons:** middle, back, forward and any extra button work. Your button stops doing its old job, so the Back button no longer goes back in your browser.
 - **Keys:** use a function key (F1 to F20) alone, or any key with ⌘, ⌥, ⌃ or ⇧. Plain letters are rejected so typing never opens the wheel.
-- **Mouse software:** Logi Options+ and similar apps can keep a button to themselves, such as the MX Master thumb button. If pressing it does nothing in the window, assign that button a keystroke such as F19 in the mouse app (in Logi Options+, pick the button and choose a keystroke assignment). Then press the button in the Nashi Mini window.
+- **Mouse software:** if pressing a button does nothing in the window, your mouse app is keeping it. In Logi Options+, a button set to Do nothing, Gesture or Radial Menu sends nothing to the Mac. Pick the button, choose Keystroke Assignment, and enter an unused combination such as ⌃⌥⌘K. Then press the button in the Nashi Mini window.
+
+Nashi Mini takes the shortcut over in every app, so avoid combinations you use. ⌘Z would stop undo everywhere, and ⇧⌘N would stop New Folder in Finder.
 
 To change the shortcut, open Nashi Mini again from Applications and press a new one. Esc keeps the current one.
 
@@ -45,7 +47,7 @@ To change the shortcut, open Nashi Mini again from Applications and press a new 
 - Select files in Finder and press your button.
 - Or start dragging files and press your button while you drag, then drop them on a format.
 
-The wheel starts on formats. **Click the center** to switch to tools, and click it again to go back. A tool with options opens a smaller wheel of presets. Click a petal to run it, or press Esc or click outside the wheel to cancel. The arrow keys, Return, Tab and Esc also work.
+The wheel starts on formats. **Click the center** to switch to tools, and click it again to go back. A tool with options opens a smaller wheel of presets. Click a petal to run it. To close the wheel, press Esc, click outside it, or press your button again. The arrow keys, Return and Tab also work.
 
 A line at the bottom of the screen shows progress, the saved file, or any error.
 
@@ -80,7 +82,19 @@ git pull
 scripts/install.sh
 ```
 
-The app is signed locally, so macOS may treat each new build as a new app. If the window asks for Accessibility again, remove Nashi Mini from the list, add it back and reopen it.
+The app is signed locally, so macOS treats each new build as a new app and its permissions stop working, even if the switches still look on. See [Troubleshooting](#troubleshooting) to grant them again. Your shortcut is kept.
+
+## Troubleshooting
+
+- **The window keeps saying Allow Nashi Mini:** in System Settings › Privacy & Security › Accessibility, select Nashi Mini and remove it with **−**. Add `/Applications/Nashi Mini.app` back with **+** and turn it on. The window updates within a few seconds.
+- **"Allow Nashi Mini to control Finder":** reset the permission, select a file in Finder, press your button and click Allow:
+
+  ```sh
+  tccutil reset AppleEvents io.github.kungie.nashi-mini
+  ```
+
+- **"Select files in Finder first":** the button works, but Finder wasn't the active app or nothing was selected.
+- **The button isn't recorded:** your mouse app is keeping it. See [Set your shortcut](#set-your-shortcut).
 
 ## License
 
