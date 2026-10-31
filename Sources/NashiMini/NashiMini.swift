@@ -1,6 +1,7 @@
 import AppKit
 import NashiCore
 import ServiceManagement
+import os
 
 @main enum NashiMini {
     @MainActor static func main() {
@@ -13,17 +14,18 @@ import ServiceManagement
 
 /// No Dock icon, no menu bar item: a press of the saved shortcut opens the wheel.
 @MainActor final class AppDelegate:NSObject,NSApplicationDelegate {
+    private let log=Logger(subsystem:"io.github.kungie.nashi-mini",category:"trigger")
     private let wheel=WheelController()
     private let converter=Converter()
     private let monitor=ShortcutMonitor()
     private let panel=ShortcutPanel()
     private var dragChangeAtMouseDown=NSPasteboard(name:.drag).changeCount
-    private var leftDown=false
 
     func applicationDidFinishLaunching(_ notification:Notification) {
         wheel.onAction={ [weak self] in self?.converter.run($0,inputs:$1) }
         monitor.shortcut=ShortcutStore.load()
         monitor.onTrigger={ [weak self] in self?.trigger() }
+        monitor.onWheelKey={ [weak self] in self?.wheel.handleKey($0) ?? false }
         monitor.onCapture={ [weak self] in self?.captured($0) }
         monitor.onLeftDown={ [weak self] in self?.leftMouseDown() }
         monitor.onLeftUp={ [weak self] in self?.leftMouseUp() }
@@ -69,24 +71,29 @@ import ServiceManagement
         if wheel.isVisible { wheel.hide();return }
         if converter.working { Toast.shared.show("Still converting…");return }
         let board=NSPasteboard(name:.drag)
-        if leftDown {
-            guard board.changeCount != dragChangeAtMouseDown else { return }
+        // Ask the system: a tracked flag could stick if the tap ever missed a mouse-up.
+        if CGEventSource.buttonState(.combinedSessionState,button:.left),board.changeCount != dragChangeAtMouseDown {
             let files=WheelController.fileURLs(from:board)
-            if !files.isEmpty { wheel.show(inputs:files,at:NSEvent.mouseLocation,keyboard:false) }
-            return
+            log.notice("Trigger during drag with \(files.count) files")
+            if !files.isEmpty { wheel.show(inputs:files,at:NSEvent.mouseLocation,keyboard:false);return }
         }
         switch FinderSelection.read() {
-        case .files(let files): wheel.show(inputs:files,at:NSEvent.mouseLocation,keyboard:true)
-        case .empty: Toast.shared.show("Select files in Finder first")
-        case .denied: Toast.shared.show("Allow Nashi Mini to control Finder in Privacy & Security › Automation",duration:6)
+        case .files(let files):
+            log.notice("Trigger with \(files.count) selected files")
+            wheel.show(inputs:files,at:NSEvent.mouseLocation,keyboard:true)
+        case .empty:
+            log.notice("Trigger with no Finder selection")
+            Toast.shared.show("Select files in Finder first")
+        case .denied:
+            log.notice("Finder access denied")
+            Toast.shared.show("Allow Nashi Mini to control Finder in Privacy & Security › Automation",duration:6)
         }
     }
     private func leftMouseDown() {
-        leftDown=true;dragChangeAtMouseDown=NSPasteboard(name:.drag).changeCount
+        dragChangeAtMouseDown=NSPasteboard(name:.drag).changeCount
         wheel.hideIfOutside(NSEvent.mouseLocation)
     }
     private func leftMouseUp() {
-        leftDown=false
         // The drop lands after mouse-up; a drop outside the wheel just closes it.
         DispatchQueue.main.asyncAfter(deadline:.now()+0.25) { [weak self] in self?.wheel.endDrag() }
     }

@@ -9,6 +9,7 @@ import ApplicationServices
     var capturing=false
     var onTrigger:(()->Void)?
     var onCapture:((Capture)->Void)?
+    var onWheelKey:((Int64)->Bool)?
     var onLeftDown:(()->Void)?
     var onLeftUp:(()->Void)?
     var onReady:(()->Void)?
@@ -68,7 +69,7 @@ import ApplicationServices
                 else { onCapture?(.rejected) }
                 return true
             }
-            guard shortcut?.matches(kind:.key,code:code,modifiers:modifiers) == true else { return false }
+            guard shortcut?.matches(kind:.key,code:code,modifiers:modifiers) == true else { return onWheelKey?(code) ?? false }
             if event.getIntegerValueField(.keyboardEventAutorepeat) == 0 { onTrigger?() }
             return true
         default: return false

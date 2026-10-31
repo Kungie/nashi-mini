@@ -18,7 +18,6 @@ private enum WheelColors {
     private var inputs:[URL]=[]
     private var level=Level.formats
     private var clickMode=false
-    private var keyWindowObserver:NSObjectProtocol?
     var isVisible:Bool { panel?.isVisible == true }
 
     static func fileURLs(from board:NSPasteboard)->[URL] {
@@ -38,7 +37,6 @@ private enum WheelColors {
             p.setFrameOrigin(NSPoint(x:x,y:y))
         }
         panel?.orderFrontRegardless()
-        if keyboard { takeFocus() }
     }
     private func build() {
         let size:CGFloat=320
@@ -49,7 +47,6 @@ private enum WheelColors {
         view.onSelect = { [weak self] entry in self?.choose(entry) };view.onCancel = { [weak self] in self?.hide() };view.onCenter = { [weak self] in self?.center() }
         view.onDragInputs = { [weak self] urls in guard let self else { return };self.inputs=urls;self.present(ToolMenu.formats(for:urls).isEmpty ? .tools:.formats) }
         panel=p;wheel=view
-        keyWindowObserver=NotificationCenter.default.addObserver(forName:NSWindow.didResignKeyNotification,object:p,queue:.main) { [weak self] _ in Task { @MainActor in if self?.clickMode == true { self?.hide() } } }
     }
     private func present(_ next:Level) {
         level=next
@@ -60,10 +57,14 @@ private enum WheelColors {
         case .presets(let entries): wheel?.configure(entries,center:"‹ Back")
         }
     }
-    private func takeFocus() { panel?.makeKey();panel?.makeFirstResponder(wheel) }
+    /// Finder keeps focus while the wheel is open, so its keys arrive from the event tap.
+    func handleKey(_ code:Int64)->Bool {
+        guard isVisible,[53,48,123,124,125,126,115,119,36,49].contains(code) else { return false }
+        wheel?.press(UInt16(code));return true
+    }
     private func center() {
         // A file dropped on the center keeps the wheel open for clicking.
-        if !clickMode { clickMode=true;takeFocus() }
+        clickMode=true
         switch level {
         case .formats: if !ToolMenu.tools(for:inputs).isEmpty { present(.tools) }
         case .tools: if !ToolMenu.formats(for:inputs).isEmpty { present(.formats) }
@@ -80,7 +81,6 @@ private enum WheelColors {
     func hide() { clickMode=false;panel?.orderOut(nil) }
     func endDrag() { if !clickMode { hide() } }
     func hideIfOutside(_ point:NSPoint) { if isVisible,panel?.frame.contains(point) == false { hide() } }
-    deinit { if let keyWindowObserver { NotificationCenter.default.removeObserver(keyWindowObserver) } }
 }
 
 final class WheelView:NSView {
@@ -163,8 +163,9 @@ final class WheelView:NSView {
     override func mouseMoved(with event:NSEvent) { updateSelection(convert(event.locationInWindow,from:nil)) }
     override func mouseExited(with event:NSEvent) { selected=nil;centerHovered=false }
     override func mouseDown(with event:NSEvent) { updateSelection(convert(event.locationInWindow,from:nil));if centerHovered { onCenter?() } else if let selected { onSelect?(items[selected]) } else { onCancel?() } }
-    override func keyDown(with event:NSEvent) {
-        switch event.keyCode {
+    override func acceptsFirstMouse(for event:NSEvent?)->Bool { true }
+    func press(_ code:UInt16) {
+        switch code {
         case 53: onCancel?()
         case 48: onCenter?()
         case 123,126: if !items.isEmpty { selected=((selected ?? 0)-1+items.count)%items.count }
